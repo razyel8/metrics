@@ -1,0 +1,478 @@
+SPR-10285;2013-02-13T02:34:47,000;2015-03-25T08:19:08,000;No way to specify @Pointcut that matches either a method or a class level annotation, binding expression do not short-circuit;wujek.srujek@gmail.com;;https://jira.spring.io/browse/SPR-10285
+SPR-10247;2013-01-31T03:12:43,000;2013-02-26T02:38:49,000;Spring LTW does not work with websphere multiple class loader;prao81;;https://jira.spring.io/browse/SPR-10247
+SPR-10287;2013-02-13T03:34:12,000;2015-03-25T08:20:57,000;spring-aop introduction into Groovy class don't work;wujek.srujek@gmail.com;;https://jira.spring.io/browse/SPR-10287
+SPR-10408;2013-03-22T10:35:42,000;2013-03-22T14:35:15,000;Contention caused by per-instance/per-request logger creation in ConcurrencyThrottleSupport;plethora;;https://jira.spring.io/browse/SPR-10408
+SPR-10228;2013-01-28T17:04:02,000;2013-02-07T17:22:58,000;DefaultHandlerExceptionResolver hidden Exception (HttpMessageNotWritableException) silently;yong;;https://jira.spring.io/browse/SPR-10228
+SPR-11020;2013-10-22T09:43:35,000;2013-11-29T16:10:59,000;"Random retry(?) behavior with &lt;task:scheduled-tasks&gt;";plentz;;https://jira.spring.io/browse/SPR-11020
+SPR-11851;2014-06-06T06:00:29,000;2014-06-24T12:01:22,000;Spring 4 JMS Listener doesn't work with CommonJ WorkManager;Matthias N;;https://jira.spring.io/browse/SPR-11851
+SPR-11794;2014-05-16T03:09:36,000;2014-05-16T05:12:02,000;Spring 4 not backward compatible with DWR 2 / 3;sanjay.patil;;https://jira.spring.io/browse/SPR-11794
+SPR-10442;2013-04-04T17:23:56,000;2014-03-18T17:30:39,000;"Corrupt Data - data on second page of submit is corrupted when referenced via ""path"" attribute (but is fine when referenced using jstl)";willdev;;https://jira.spring.io/browse/SPR-10442
+SPR-10685;2013-06-24T20:40:55,000;2013-06-28T12:09:57,000;InternalResourceViewResolver process with 404 result;murainwood;;https://jira.spring.io/browse/SPR-10685
+SPR-10455;2013-04-09T20:36:01,000;2015-02-03T19:30:09,000;IllegalArgumentException when trying to merge list/set into SpringEL produced list/set;bas;;https://jira.spring.io/browse/SPR-10455
+SPR-11125;2013-11-26T03:59:10,000;2014-12-10T04:53:27,000;Incorrect ContextClassLoader for CommonJ WorkManager worker threads when Quartz Scheduler is used;mag01;;https://jira.spring.io/browse/SPR-11125
+SPR-10809;2013-08-06T02:47:22,000;2013-08-07T07:28:49,000;MediaType does not add spaces for parameters;frisco;;https://jira.spring.io/browse/SPR-10809
+SPR-12873;2015-03-31T20:58:35,000;2015-12-18T03:33:20,000;@Bean and @Value with external property file causes bean creation mis-ordering;simonwg;;https://jira.spring.io/browse/SPR-12873
+SPR-13580;2015-10-16T15:57:30,000;2015-10-20T02:00:02,000;@PreAuthorize Controller invalidates @Inject in @InitBinder ?;smallufo;;https://jira.spring.io/browse/SPR-13580
+SPR-12901;2015-04-09T21:23:10,000;2015-04-10T01:16:44,000;Autowired fails upon upcasting with @Configurable;moonblade.wolf@gmail.com;;https://jira.spring.io/browse/SPR-12901
+SPR-13380;2015-08-23T00:53:30,000;2016-02-11T23:12:11,000;NullPointerException in AspectJ's Java15AnnotationFinder when running on JDK 1.7;tzvatot;;https://jira.spring.io/browse/SPR-13380
+SPR-13329;2015-08-07T00:47:06,000;2015-08-07T02:56:26,000;Incorrect advice by aspect with pointcut combining type annotations;fpavageau;;https://jira.spring.io/browse/SPR-13329
+SPR-12478;2014-11-27T05:27:14,000;2014-11-27T05:32:17,000;Compile-time-weaving is using the wrong context to inject dependencies from in environment with servlet- and portlet-context;Christian Zaefferer;;https://jira.spring.io/browse/SPR-12478
+SPR-13163;2015-06-25T08:52:36,000;2015-06-26T05:16:29,000;BeanPostProcessor won't ever get proxied bean in case of circular references in the bean;novoj;;https://jira.spring.io/browse/SPR-13163
+SPR-12504;2014-12-03T16:02:38,000;2014-12-04T01:24:59,000;"StringToCollectionConverter - pass "" "" (empty space), get Collection of size 1, with a null element.";tedberg;;https://jira.spring.io/browse/SPR-12504
+SPR-13786;2015-12-13T11:18:41,000;2015-12-13T11:27:44,000;LTW: Class loaded before load time weaving is initialized;omallo;;https://jira.spring.io/browse/SPR-13786
+SPR-12441;2014-11-14T12:39:51,000;2014-11-14T14:55:01,000;@PathVariable does not respect UrlPathHelper.defaultEncoding;cwong15;;https://jira.spring.io/browse/SPR-12441
+SPR-13110;2015-06-10T12:18:22,000;2015-06-10T14:17:14,000;Attempted Duplicate Class Definition for Name;stevedroy;;https://jira.spring.io/browse/SPR-13110
+SPR-12891;2015-04-06T08:21:18,000;2015-04-06T09:31:21,000;After Returning Advice called on a method returning void;yk;;https://jira.spring.io/browse/SPR-12891
+SPR-8285;2011-04-28T12:19:45,000;2013-05-25T20:44:27,000;Quartz scheduler is initialized even if lazy-init=true and autoStatup=false;rlevac;;https://jira.spring.io/browse/SPR-8285
+SPR-8202;2011-04-04T15:14:07,000;2013-01-22T23:35:34,000;BeanUtils.copyProperties() not copying some properties;bozho;;https://jira.spring.io/browse/SPR-8202
+SPR-7954;2011-02-10T14:37:42,000;2013-01-22T23:36:34,000;form:select does not set selected option when a PropertyEditor is associated.;penthief;;https://jira.spring.io/browse/SPR-7954
+SPR-7871;2011-01-11T07:23:37,000;2013-01-22T23:36:03,000;spring.formRadioButtons can't work if path is number;refactor;;https://jira.spring.io/browse/SPR-7871
+SPR-8273;2011-04-25T03:38:51,000;2013-01-22T23:34:47,000;Missing AccessController.doPrivileged blocks which cause webapp to fail with security manager;bvella;;https://jira.spring.io/browse/SPR-8273
+SPR-7962;2011-02-14T07:54:07,000;2013-01-22T23:36:14,000;BindStatus does not find errors on nested models.;angela;;https://jira.spring.io/browse/SPR-7962
+SPR-8343;2011-05-17T21:48:56,000;2014-04-21T23:07:09,000;Even when primary candidate exists, other lazy bean candidates are instantiated;xarx;;https://jira.spring.io/browse/SPR-8343
+SPR-8344;2011-05-17T22:25:45,000;2014-04-21T23:07:06,000;Lazy-init beans are unnecessarily created during the candidate determination process;xarx;;https://jira.spring.io/browse/SPR-8344
+SPR-8792;2011-10-20T07:20:18,000;2013-12-10T17:15:51,000;TransactionInterceptor does not translate Hibernate Exception;crazytrain411;;https://jira.spring.io/browse/SPR-8792
+SPR-14194;2016-04-19T21:15:08,000;2016-04-19T21:45:51,000;PathMatchingResourcePatternResolver throws IOException inappropriately;archie172;;https://jira.spring.io/browse/SPR-14194
+SPR-12465;2014-11-24T07:14:42,000;2014-11-28T01:32:06,000;Fix for issue SPR-12238 not working on IBM java_1.7_64;cpandey05;;https://jira.spring.io/browse/SPR-12465
+SPR-13609;2015-10-26T08:29:34,000;2015-11-05T11:39:06,000;ConcurrentModificationException during high load - Spring Web REST;robjoh;;https://jira.spring.io/browse/SPR-13609
+SPR-11447;2014-02-19T09:18:02,000;2015-12-24T06:03:11,000;Hibernate session cannot be found after upgrading Tomcat from 7.0.50 to 8.0.3;holger;;https://jira.spring.io/browse/SPR-11447
+SPR-8857;2011-11-17T23:06:03,000;2014-12-12T15:04:35,000;@DirtiesContext does not destroy all cached singleton beans;saurabh.chandra;;https://jira.spring.io/browse/SPR-8857
+SPR-14297;2016-05-21T13:09:46,000;2016-05-21T21:37:16,000;i can not using custom scopeResolver class on @ComponentScan annotation.;hadi.tayebi;;https://jira.spring.io/browse/SPR-14297
+SPR-11037;2013-10-28T05:37:13,000;2013-10-28T05:37:13,000;Invalid JSF FacesContext and ExternalContext injected into non request scoped bean;hkblau;;https://jira.spring.io/browse/SPR-11037
+SPR-13651;2015-11-06T13:15:01,000;2016-06-09T17:11:39,000;Possible bug in CacheConnectionFactory causing session to be created on every request;vkjk89;;https://jira.spring.io/browse/SPR-13651
+SPR-9834;2012-09-27T08:14:43,000;2013-01-22T23:35:24,000;"Exceptionorg.springframework.dao.InvalidDataAccessApiUsageException: Transaction already active; nested exception is java.lang.IllegalStateException: Transaction already active”";cnavnit;;https://jira.spring.io/browse/SPR-9834
+SPR-8870;2011-11-22T13:40:28,000;2013-01-22T23:36:15,000;DataSourceTransactionManager assumes that connection is not in transaction but nothing ensures it;leonidos@gmail.com;;https://jira.spring.io/browse/SPR-8870
+SPR-13897;2016-01-28T00:49:58,000;2016-05-16T14:31:08,000;Jackson doesn't give the same output as the input JSON;rwang;;https://jira.spring.io/browse/SPR-13897
+SPR-10972;2013-10-09T03:42:04,000;2013-10-18T13:03:07,000;Session serialization and deserialization fails under Tomcat with an advised and session-scoped bean;mpol;;https://jira.spring.io/browse/SPR-10972
+SPR-13098;2015-06-04T08:17:08,000;2015-06-16T01:47:47,000;"java.lang.VerifyError: $$EnhancerBySpringCGLIB$$744256ce, method: &lt;init&gt; signature: ()V) Illegal type in constant pool";Narasimhachinimilly@gmail.com;;https://jira.spring.io/browse/SPR-13098
+SPR-11892;2014-06-20T09:35:32,000;2014-07-07T10:19:16,000;Message Property File Content Doesn't Show Up;vernon;;https://jira.spring.io/browse/SPR-11892
+SPR-9351;2012-04-27T14:39:14,000;2014-04-21T23:07:17,000;Apostrophe in MessageSource text leads to {0} not being replaced;mschipperheyn;;https://jira.spring.io/browse/SPR-9351
+SPR-11879;2014-06-16T23:48:08,000;2014-06-27T06:15:04,000;Matrix variables aren't read when path variable has regex restriction;mers;;https://jira.spring.io/browse/SPR-11879
+SPR-5481;2009-02-12T18:51:48,000;2013-01-22T23:35:09,000;MBeanExporter's autodetection incompatible with prototype beans;grzegorz.oledzki;;https://jira.spring.io/browse/SPR-5481
+SPR-11446;2014-02-19T07:53:27,000;2014-11-27T10:22:26,000;Load Time Weaving not working after upgrading Tomcat from 7.0.50 to 7.0.52;holger;;https://jira.spring.io/browse/SPR-11446
+SPR-10879;2013-08-29T19:55:08,000;2013-08-29T23:14:11,000;CGLIB Imports required in Web Servlet bundle to deploy a web application in OSGi environment;aritrachatterjee;;https://jira.spring.io/browse/SPR-10879
+SPR-14398;2016-06-24T22:13:09,000;2016-06-25T08:45:59,000;Spring 4.2.6 autowiring generics problem: org.springframework.beans.factory.BeanCreationException: Could not autowire field;tedkin;;https://jira.spring.io/browse/SPR-14398
+SPR-10276;2013-02-08T07:43:34,000;2013-08-22T06:30:35,000;@Async with Executor qualification does not run;jasonparallel;;https://jira.spring.io/browse/SPR-10276
+SPR-9638;2012-07-26T09:00:20,000;2016-07-13T08:20:16,000;BeanFactory.getType(String) may not return a Proxy class depending on the order of bean declarations;rstoya05-aop;;https://jira.spring.io/browse/SPR-9638
+SPR-13522;2015-09-28T23:57:10,000;2015-09-29T09:35:56,000;@Autowire fails when using load-time weaving and lambdas;oliver.henlich;;https://jira.spring.io/browse/SPR-13522
+SPR-7582;2010-09-21T15:29:13,000;2013-01-22T23:36:11,000;ProxyFactoryBean getObject called before setInterceptorNames, silently creating an invalid proxy;magnayn;;https://jira.spring.io/browse/SPR-7582
+SPR-11612;2014-03-26T23:03:16,000;2015-06-05T14:00:05,000;"""org.springframework.beans.factory.support.DefaultListableBeanFactory"", loaded by ""org.apache.catalina.loader.StandardClassLoader"" occupy 1,493,680,816 bytes";kbsivacse;;https://jira.spring.io/browse/SPR-11612
+SPR-10535;2013-05-07T00:36:22,000;2013-12-11T15:01:43,000;Spring remote over JMS not work in Rest service;tuyuri;;https://jira.spring.io/browse/SPR-10535
+SPR-13391;2015-08-25T02:24:46,000;2015-10-07T10:03:51,000;Compatibility with Hibernate ORM 5.0 Final - create instance of entityManagerFactory;flodes7;;https://jira.spring.io/browse/SPR-13391
+SPR-10878;2013-08-29T19:34:27,000;2013-08-30T04:50:22,000;Cyclic Dependency detected when using Spring ORM in an OSGi environment;aritrachatterjee;;https://jira.spring.io/browse/SPR-10878
+SPR-10380;2013-03-14T13:33:00,000;2013-04-15T09:28:19,000;EL expression / Resolved does not update value of bean in some condition;jorelia;;https://jira.spring.io/browse/SPR-10380
+SPR-12684;2015-02-03T08:39:06,000;2015-02-03T09:46:12,000;LocalContainerEntityManagerFactoryBean returns null when trying to retrieve the EntityManagerFactory using .getObject() after having datasource set to a jdni, vendorAdapter set to hibernate and jpa properties set using spring java config;Tyron;;https://jira.spring.io/browse/SPR-12684
+SPR-5456;2009-02-03T18:11:10,000;2013-08-10T07:41:18,000;multiple instances of PropertyPlaceholderConfigurer under AbstractAnnotationAwareTransactionalTests don't work properly;baocean;;https://jira.spring.io/browse/SPR-5456
+SPR-7880;2011-01-13T03:02:19,000;2013-01-22T23:36:23,000;jaxrs:server bean hides errors in entityManager initialization;mschipperheyn;;https://jira.spring.io/browse/SPR-7880
+SPR-14052;2016-03-15T09:20:23,000;2016-03-15T14:04:12,000;Issue with deferredresult's timeout;Ramya Prakash;;https://jira.spring.io/browse/SPR-14052
+SPR-14448;2016-07-11T14:38:37,000;2016-07-12T20:47:41,000;Problem when DeferredResult set before controller's method returns it;O1egon;;https://jira.spring.io/browse/SPR-14448
+SPR-10483;2013-04-24T04:45:06,000;2013-04-30T12:37:45,000;Getting an Exception While using RMIProxFactoryBean;vinodkumar;;https://jira.spring.io/browse/SPR-10483
+SPR-7926;2011-01-31T13:08:39,000;2013-01-22T23:34:39,000;Spring Application getting into hung state while refreshing transacted JMS connection;sgoyal;;https://jira.spring.io/browse/SPR-7926
+SPR-6829;2010-02-12T00:26:07,000;2013-01-22T23:35:43,000;using Scanner for command reading after loading ApplicationContext, causes a bug in veriso 3.0 and later nightly builds;ekizoner;;https://jira.spring.io/browse/SPR-6829
+SPR-5933;2009-07-15T13:36:59,000;2013-01-22T23:36:45,000;ShadowingClassLoader loadClass is non thread safe and can so cause java.lang.LinkageError when an already loaded class is attempted to be loaded;kierone;;https://jira.spring.io/browse/SPR-5933
+SPR-5464;2009-02-04T23:44:50,000;2013-01-22T23:35:46,000;throws clause ignored by pointcut parser;rsamuell;;https://jira.spring.io/browse/SPR-5464
+SPR-10475;2013-04-19T09:02:15,000;2013-04-19T09:02:15,000;tc server crashes on close;hardtail29;;https://jira.spring.io/browse/SPR-10475
+SPR-12906;2015-04-13T13:18:38,000;2015-04-13T14:44:07,000;Using CharacterEncodingFilter with FormHttpMessageConverter;astorath;;https://jira.spring.io/browse/SPR-12906
+SPR-7568;2010-09-18T02:44:37,000;2013-01-22T23:36:07,000;BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans() must not include ancestors when discovering advisors;harald;;https://jira.spring.io/browse/SPR-7568
+SPR-7584;2010-09-21T16:34:03,000;2013-01-22T23:36:48,000;Migration from 2.5.6 to 3.0.2 - Lazy Init functions differently.;cnichols;;https://jira.spring.io/browse/SPR-7584
+SPR-7566;2010-09-17T07:24:40,000;2013-01-22T23:36:23,000;Exception when @Scheduled and @Async placed on one bean;batman;;https://jira.spring.io/browse/SPR-7566
+SPR-5856;2009-06-22T19:46:18,000;2013-01-22T23:34:37,000;Using RuntimeBeanNameReferences to programmatically add a factory-produced bean to an application context fails;n.j.white;;https://jira.spring.io/browse/SPR-5856
+SPR-5818;2009-06-10T03:30:39,000;2013-01-22T23:36:32,000;Property editor not being used for frm:select;johndstein;;https://jira.spring.io/browse/SPR-5818
+SPR-5482;2009-02-12T22:12:59,000;2013-01-22T23:36:09,000;Autowire injection caches values (HttpSession);priit;;https://jira.spring.io/browse/SPR-5482
+SPR-7893;2011-01-18T07:54:42,000;2013-01-22T23:36:21,000;PetClinic Sample - Please modify petclinic application so it does not need to re-map the container's default servlet;szhu;;https://jira.spring.io/browse/SPR-7893
+SPR-7907;2011-01-25T01:50:39,000;2014-01-09T16:59:06,000;TransactionSynchronizationUtils.unwrapResourceIfNecessary() does not unwrap additional proxy types;jensb;;https://jira.spring.io/browse/SPR-7907
+SPR-7920;2011-01-29T06:29:32,000;2013-01-22T23:35:09,000;@Async generates LazyInitializationExceptions when used in conjunction with Hibernate;mschipperheyn;;https://jira.spring.io/browse/SPR-7920
+SPR-9537;2012-06-23T19:56:07,000;2013-01-22T23:36:16,000;Models as a method parameter marked with @Validated in a @Controller will only validate on the Default group;hal10001;;https://jira.spring.io/browse/SPR-9537
+SPR-9522;2012-06-20T07:31:32,000;2013-03-07T22:10:38,000;ResourceBundleMessageSource doesn't work with Local.ENGLISH but does work with Local.US or Locale.UK;grossetti;;https://jira.spring.io/browse/SPR-9522
+SPR-9477;2012-06-06T10:00:32,000;2013-01-22T23:36:52,000;Eager loading of XSLT stylesheet in the XsltView throws an IOException;hasghari;;https://jira.spring.io/browse/SPR-9477
+SPR-9719;2012-08-23T13:05:32,000;2013-04-22T11:25:33,000;TypeUtils.isAssignable does not recognize TypeVariable types;moia;;https://jira.spring.io/browse/SPR-9719
+SPR-8277;2011-04-26T13:41:37,000;2013-01-22T23:36:19,000;ResourceBundleViewResolver doesn't recognize class definition;liquidcool;;https://jira.spring.io/browse/SPR-8277
+SPR-8259;2011-04-18T04:29:27,000;2013-01-22T23:36:39,000;ReflectivePropertyAccessor adds supertype matches to general accessors instead of specific accessors;hampe98;;https://jira.spring.io/browse/SPR-8259
+SPR-8284;2011-04-28T07:24:18,000;2013-01-22T23:36:13,000;TransactionAspectUtils.isQualifierMatch() does not search parent contexts;hertzsprung;;https://jira.spring.io/browse/SPR-8284
+SPR-9039;2012-01-19T04:56:54,000;2014-04-21T23:07:20,000;spring el - autoGrowNullReferences/autoGrowCollections in SpelParserConfiguration does not work for maps;maayan;;https://jira.spring.io/browse/SPR-9039
+SPR-8789;2011-10-19T14:37:04,000;2013-01-22T23:36:38,000;Spring+Hibernate fails to release connection;matthewadams;;https://jira.spring.io/browse/SPR-8789
+SPR-8758;2011-10-11T18:14:02,000;2014-04-21T23:07:11,000;embeddedValueResolvers from parent BeanFactory are not used during @Value annotation resolution;sherdilnow;;https://jira.spring.io/browse/SPR-8758
+SPR-8773;2011-10-13T07:50:07,000;2013-01-22T23:35:35,000;"Conditional converter List -&gt; String depending on the List's element type doesn't work anymore";fmessner;;https://jira.spring.io/browse/SPR-8773
+SPR-9306;2012-04-05T08:31:33,000;2013-01-22T23:36:50,000;Fail to parse date format with timezone name;dd_lpg;;https://jira.spring.io/browse/SPR-9306
+SPR-9279;2012-03-29T01:59:45,000;2014-04-21T23:07:23,000;Hibernate Envers does not work in Spring 3.1;gdelprete;;https://jira.spring.io/browse/SPR-9279
+SPR-10446;2013-04-05T18:59:40,000;2013-04-05T18:59:40,000;ModelAndView cannot be cast to java.lang.String (in debug mode);srosenberg;;https://jira.spring.io/browse/SPR-10446
+SPR-10477;2013-04-20T12:29:01,000;2013-04-20T15:18:45,000;Spring Castor Unmarshaller;ab-trax;;https://jira.spring.io/browse/SPR-10477
+SPR-10541;2013-05-08T04:42:14,000;2013-10-18T14:02:55,000;DateFormatter and TimeZone:;srcarro;;https://jira.spring.io/browse/SPR-10541
+SPR-10496;2013-04-26T13:41:54,000;2013-04-26T13:41:54,000;"Not possible to import Javaconfig using &lt;bean ..&gt; when ""top"" configfile is a Javaconfig class.";rune;;https://jira.spring.io/browse/SPR-10496
+SPR-10577;2013-05-20T23:15:43,000;2013-06-04T13:50:32,000;spring @MatrixVariable bug;zhangkaitao;;https://jira.spring.io/browse/SPR-10577
+SPR-9786;2012-09-11T08:01:34,000;2016-03-20T11:33:45,000;JAX-WS and SpringBeanAutowiringSupport don't work on Tomcat 7;jkrizanic;;https://jira.spring.io/browse/SPR-9786
+SPR-10082;2012-12-07T02:00:15,000;2014-04-21T23:07:19,000;"&lt;alias&gt; tag not working with @Autowired and @Qualifier";mandarchatufale;;https://jira.spring.io/browse/SPR-10082
+SPR-10917;2013-09-15T23:23:40,000;2013-09-24T16:23:09,000;direct field access cannot bind data to List object;chenzhao;;https://jira.spring.io/browse/SPR-10917
+SPR-8303;2011-05-06T14:21:32,000;2013-01-22T23:35:12,000;@Transactional(readOnly = true) doesn't work with com.mysql.jdbc.ReplicationDriver;yoga80;;https://jira.spring.io/browse/SPR-8303
+SPR-8287;2011-05-02T21:07:24,000;2013-01-22T23:36:34,000;StringUtils.tokenizeToStringArray incorrectly dropping blank tokens;nkurtyka;;https://jira.spring.io/browse/SPR-8287
+SPR-8335;2011-05-13T07:18:38,000;2013-01-22T23:36:21,000;'default-lazy-init' attribute is not processed when XSD validation is disabled;borislav.andruschuk;;https://jira.spring.io/browse/SPR-8335
+SPR-8351;2011-05-19T03:15:23,000;2014-04-21T23:07:16,000;Non-deterministic behaviour of method injection;szczepan.kuzniarz;;https://jira.spring.io/browse/SPR-8351
+SPR-8502;2011-06-30T21:21:48,000;2014-04-21T23:07:09,000;@Configurable does not work if method with configured classes as parameter exists;setya;;https://jira.spring.io/browse/SPR-8502
+SPR-8357;2011-05-19T15:38:13,000;2013-01-22T23:34:58,000;Binding: Map key with brackets fails;inisos;;https://jira.spring.io/browse/SPR-8357
+SPR-8739;2011-10-05T03:11:28,000;2013-01-22T23:35:34,000;Can't create JaxWsPortProxyFactoryBean caused by an unknown WebServiceFeature specification type;svenw;;https://jira.spring.io/browse/SPR-8739
+SPR-7980;2011-02-20T10:01:53,000;2013-01-22T23:36:41,000;AdvisedSupport.MethodCacheKey.equals() seems wrong and causes potential memory leak.;kaborka20;;https://jira.spring.io/browse/SPR-7980
+SPR-11220;2013-12-12T16:27:07,000;2013-12-12T16:27:07,000;RequestMapping maps double-slashes to single slashes;ledlogic;;https://jira.spring.io/browse/SPR-11220
+SPR-9527;2012-06-20T20:48:58,000;2014-04-21T23:07:12,000;DefaultListableBeanFactory.getBeanNamesForType initialises beans when allowEagerInit is false;lukestephenson;;https://jira.spring.io/browse/SPR-9527
+SPR-12160;2014-09-05T14:45:47,000;2014-09-05T22:07:12,000;spring-context-4.0.xsd application unable to read;manishdwivedi81;;https://jira.spring.io/browse/SPR-12160
+SPR-10719;2013-07-03T10:50:03,000;2013-07-03T10:50:03,000;Problem when loading multiple 'applicationContext.xml';mchamati;;https://jira.spring.io/browse/SPR-10719
+SPR-11062;2013-11-04T06:08:16,000;2013-11-04T06:08:16,000;Shared @Configuration exception with multi-threaded Tomcat deployment;rostislav.hristov;;https://jira.spring.io/browse/SPR-11062
+SPR-9842;2012-09-30T23:14:07,000;2015-04-08T02:18:51,000;DefaultListableBeanFactory memory leak spring version 3.0.5;architect;;https://jira.spring.io/browse/SPR-9842
+SPR-7580;2010-09-21T11:04:23,000;2013-01-22T23:35:55,000;Spring Quartz- Pending Jobs are not getting triggered in the order they were scheduled;rrk;;https://jira.spring.io/browse/SPR-7580
+SPR-10156;2013-01-09T11:27:46,000;2016-02-17T20:00:19,000;Properties provided by an Environment's PropertySources cannot refer to other properties loaded via PropertySourcesPlaceholderConfigurer using placeholders.;maverick1601;;https://jira.spring.io/browse/SPR-10156
+SPR-10250;2013-02-01T00:42:42,000;2013-02-18T06:41:16,000;BufferedImageHttpMessageConverter redefine content type of HttpOutputMessage;krzysztof.pankowski;;https://jira.spring.io/browse/SPR-10250
+SPR-6622;2009-12-28T20:56:05,000;2013-01-22T23:36:13,000;@Value annotation not always evaluated;j.walgemoed;;https://jira.spring.io/browse/SPR-6622
+SPR-10518;2013-05-04T19:17:11,000;2013-05-04T20:05:29,000;Bean with parent not resolved if context contains factory bean autowired by type;saki;;https://jira.spring.io/browse/SPR-10518
+SPR-13401;2015-08-27T19:45:12,000;2015-08-28T13:32:36,000;Websocket does not respect configured timeouts;mattm3a;;https://jira.spring.io/browse/SPR-13401
+SPR-6568;2009-12-16T00:22:21,000;2014-05-26T10:47:52,000;Rollback of transaction participating in nested transaction causes rollback of global transaction;clemens schneider;;https://jira.spring.io/browse/SPR-6568
+SPR-11685;2014-04-11T03:06:33,000;2014-05-02T11:57:44,000;Regression: AbstractHttpMessageConverter does not set ContentType;javaguru-ch;;https://jira.spring.io/browse/SPR-11685
+SPR-14196;2016-04-21T07:05:00,000;2016-08-26T20:58:30,000;Delivering static resources with wrong contenttype since 4.3RC1 (not in latest 4.2 release);j.goldhammer@fme.de;;https://jira.spring.io/browse/SPR-14196
+SPR-11026;2013-10-23T14:22:52,000;2014-10-25T17:00:41,000;ConcurrentModificationException in AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors;anders;;https://jira.spring.io/browse/SPR-11026
+SPR-14307;2016-05-26T12:20:36,000;2016-05-27T07:32:04,000;BeanCurrentlyInCreationException error depends on @ComponentScan basePackages values order;patoi;;https://jira.spring.io/browse/SPR-14307
+SPR-8099;2011-03-29T08:42:52,000;2014-09-19T11:36:33,000;LocaleEditor does not work with some locale strings;dmas;;https://jira.spring.io/browse/SPR-8099
+SPR-5400;2009-01-06T19:29:56,000;2013-01-22T23:36:46,000;"form:errors tag generates invalid id attribute when used with ""indexed"" command object properties (array, list...)";dju`;;https://jira.spring.io/browse/SPR-5400
+SPR-5314;2008-11-20T05:16:13,000;2013-01-22T23:36:24,000;Fix invalid aspect preceedence comparison algorithm;denis.zhdanov;;https://jira.spring.io/browse/SPR-5314
+SPR-5354;2008-12-11T09:08:33,000;2013-01-22T23:35:55,000;Binding doesn't work when no radio button in a set is selected;np;;https://jira.spring.io/browse/SPR-5354
+SPR-5265;2008-11-03T00:45:58,000;2013-01-22T23:35:25,000;AspectJ aspects not working on first time call;dl_dan;;https://jira.spring.io/browse/SPR-5265
+SPR-9506;2012-06-13T22:40:49,000;2013-01-22T23:34:50,000;Spring form tag with HashMap binding problem.;stainless85;;https://jira.spring.io/browse/SPR-9506
+SPR-9081;2012-01-26T08:57:27,000;2013-01-22T23:36:01,000;Spring 3.1 EclipseLink 2.3.2 Tomcat 7 Load Time Weaving Not Weaving OneToOne;nickpadilla;;https://jira.spring.io/browse/SPR-9081
+SPR-5439;2009-01-27T18:53:29,000;2013-01-22T23:34:45,000;"""!target(...)"" pointcut expression never matches any method";grzegorz.oledzki;;https://jira.spring.io/browse/SPR-5439
+SPR-6458;2009-11-26T21:56:28,000;2013-01-22T23:36:52,000;CLONE -org.springframework.web.servlet.DispatcherServlet noHandlerFound;alkanaveen;;https://jira.spring.io/browse/SPR-6458
+SPR-9760;2012-09-05T09:15:48,000;2013-02-26T02:39:08,000;Getting HttpMessageNotReadableException while using XStream 1.3.1 with Spring 3.0.2;ganeshkandisa;;https://jira.spring.io/browse/SPR-9760
+SPR-10420;2013-03-27T00:37:18,000;2013-03-27T12:45:19,000;FileNotFoundException when deploy war with spring beans configuration into OSGI container;xldai;;https://jira.spring.io/browse/SPR-10420
+SPR-10073;2012-12-04T22:26:05,000;2013-01-22T23:36:28,000;Multiple controllers for Single Portlet;srinath.n;;https://jira.spring.io/browse/SPR-10073
+SPR-5378;2008-12-27T04:32:35,000;2013-01-22T23:35:05,000;AOP fails with interface implemented in Groovy with defaulted method parameter;wabrit;;https://jira.spring.io/browse/SPR-5378
+SPR-14354;2016-06-10T13:38:06,000;2016-08-19T12:34:28,000;RequestContextListener requestDestroyed called before web thread is finished;jonashartwig;;https://jira.spring.io/browse/SPR-14354
+SPR-11999;2014-07-15T12:35:28,000;2015-08-12T11:29:21,000;Memory leak in Spring 4.0.0.RELEASE;sanjib;;https://jira.spring.io/browse/SPR-11999
+SPR-9255;2012-03-21T07:24:00,000;2014-04-28T01:24:19,000;Intermittent BeanCurrentlyInCreationException when using @Autowired on a FactoryBean or anywhere in its dependency graph;awilkinson;;https://jira.spring.io/browse/SPR-9255
+SPR-10349;2013-03-03T10:56:37,000;2014-04-28T01:23:59,000;Circular dependency problem;apierzch;;https://jira.spring.io/browse/SPR-10349
+SPR-10872;2013-08-28T07:23:45,000;2013-08-28T07:23:45,000;Mybatis MapperScannerConfigurer do not work with JavaConfig.;dr_pompeii;;https://jira.spring.io/browse/SPR-10872
+SPR-9504;2012-06-13T06:47:40,000;2014-04-21T23:07:17,000;@Configuration bean with different scope;noskov.d;;https://jira.spring.io/browse/SPR-9504
+SPR-9227;2012-03-12T06:41:47,000;2013-04-10T04:01:16,000;"NoSuchMethodException when invoking local EJB 2.1 using &lt;jee:local-slsb&gt; in Spring";ajayhwip;;https://jira.spring.io/browse/SPR-9227
+SPR-7914;2011-01-27T06:53:07,000;2014-08-13T04:43:38,000;JavaMailSenderImpl misses a synchronized block for sending mails;micw;;https://jira.spring.io/browse/SPR-7914
+SPR-14716;2016-09-14T22:33:56,000;2016-09-15T19:35:06,000;exception during websocket server shutdown;pdeva;;https://jira.spring.io/browse/SPR-14716
+SPR-14768;2016-09-29T17:19:36,000;2016-10-03T18:59:47,000;Spring @PostConstruct init/sequence weirdness;nkolev;;https://jira.spring.io/browse/SPR-14768
+SPR-14603;2016-08-18T23:40:17,000;2016-08-19T19:33:58,000;Invalid WARN when returning a BeanDefinitionRegistryPostProcessor from within a @Configuration class;lhazlewood;;https://jira.spring.io/browse/SPR-14603
+SPR-14622;2016-08-24T13:52:10,000;2016-08-30T18:52:23,000;Since 4.2.6 Spring MVC view resolution occasionally hangs under load;graemerocher;;https://jira.spring.io/browse/SPR-14622
+SPR-10484;2013-04-24T06:34:56,000;2013-12-17T02:03:56,000;FormTag has XSS vulnerability;facedancer;;https://jira.spring.io/browse/SPR-10484
+SPR-9276;2012-03-28T11:55:51,000;2013-01-22T23:34:55,000;GenericCollectionTypeResolver.extractTypeFromClass doesn't work for java.util.Properties and descendants;alex322;;https://jira.spring.io/browse/SPR-9276
+SPR-12918;2015-04-15T12:40:02,000;2016-11-05T20:44:46,000;ApplicationContext fails to load in TestNG test if previous test is annotated with @DirtiesContext;dblake;;https://jira.spring.io/browse/SPR-12918
+SPR-14775;2016-10-03T08:12:49,000;2016-10-03T18:52:43,000;Reactive controller event stream crashes after 30 seconds;codependent;;https://jira.spring.io/browse/SPR-14775
+SPR-12649;2015-01-21T13:02:31,000;2015-01-22T09:47:41,000;Eager initialization of TransactionManagementConfigurer results in application failure;alex.spring@reflexion.net;;https://jira.spring.io/browse/SPR-12649
+SPR-12025;2014-07-23T14:31:56,000;2014-07-25T08:54:13,000;Issue with JPA Transaction Manager - Transaction roll back only exception;vivek_kivi;;https://jira.spring.io/browse/SPR-12025
+SPR-11090;2013-11-13T01:37:01,000;2013-11-13T01:37:01,000;Spring annotation/JavaConfig throws NullPointerException when cyclic dependency, should inform the cyclic condition;rudi;;https://jira.spring.io/browse/SPR-11090
+SPR-14187;2016-04-18T20:05:16,000;2016-04-20T16:45:04,000;Component scanning does not find sub-packages in EAR on Weblogic 12.2.x;robsonfarias;;https://jira.spring.io/browse/SPR-14187
+SPR-8928;2011-12-14T18:22:22,000;2016-06-14T03:27:35,000;"PropertySourcesPlaceholderConfigurer never calls ""convertProperties"" on merged properties";dfernandez;;https://jira.spring.io/browse/SPR-8928
+SPR-10432;2013-04-01T00:25:01,000;2013-04-01T00:54:30,000;"multiple &lt;mvc:resources&gt; don't work";vypedrik;;https://jira.spring.io/browse/SPR-10432
+SPR-14106;2016-04-01T18:07:42,000;2016-04-01T21:43:19,000;Spring cache does not notify EJB's using SpringBeanAutowiringInterceptor;ofbizbrazil;;https://jira.spring.io/browse/SPR-14106
+SPR-11018;2013-10-22T08:08:04,000;2013-11-05T07:51:11,000;Spring cannot find bean aliased with placeholder;donroberto;;https://jira.spring.io/browse/SPR-11018
+SPR-14855;2016-10-26T18:30:20,000;2016-10-26T19:46:18,000;Can't return JSON view from RequestMappings with Trailing Slashes;hectorg87;;https://jira.spring.io/browse/SPR-14855
+SPR-8046;2011-03-12T08:43:31,000;2013-01-22T23:36:22,000;Interactions Between WeakReferenceMonitor, WebSphereUowTransactionManager and WebSphere mean the monitored EJB never becomes weakly reachable;jonseymour;;https://jira.spring.io/browse/SPR-8046
+SPR-11286;2014-01-06T00:49:41,000;2014-01-06T07:58:11,000;Binders are not called after spring web mvc upgrade from version 3.0 to 3.2.2;galha02;;https://jira.spring.io/browse/SPR-11286
+SPR-9891;2012-10-19T00:35:34,000;2014-04-21T23:07:21,000;Improve error message when bean initialization fails;pofin;;https://jira.spring.io/browse/SPR-9891
+SPR-12547;2014-12-15T14:25:40,000;2014-12-16T07:39:42,000;Spring MVC concurrency issue with shared PropertyEditor instances;joe.j.dunne@gmail.com;;https://jira.spring.io/browse/SPR-12547
+SPR-13249;2015-07-17T07:45:44,000;2015-10-03T06:03:35,000;MVC does not like advised controller methods in classes with Groovy traits;w_c_smith;;https://jira.spring.io/browse/SPR-13249
+SPR-13245;2015-07-16T16:09:20,000;2015-08-30T08:00:31,000;Validator.validate method that calls nested class validate() gets wrong object in childs error.entity validation;bedge42;;https://jira.spring.io/browse/SPR-13245
+SPR-10793;2013-07-30T02:52:40,000;2013-08-13T09:28:22,000;Unexpected proxy created - breaks context creation;mpol;;https://jira.spring.io/browse/SPR-10793
+SPR-11562;2014-03-16T03:55:07,000;2014-04-07T02:17:10,000;RmiServiceExporter class-loader and allocation issue;thmd;;https://jira.spring.io/browse/SPR-11562
+SPR-10582;2013-05-24T02:53:36,000;2013-05-29T01:59:32,000;component-scan of class in separate jar causes repeated tomcat redeply to fail in its attempt to remove the jar;leen111;;https://jira.spring.io/browse/SPR-10582
+SPR-8576;2011-08-01T14:41:33,000;2013-01-22T23:34:43,000;Proper handling of multiple transaction managers for one method;bozho;;https://jira.spring.io/browse/SPR-8576
+SPR-9514;2012-06-16T19:26:45,000;2013-01-22T23:36:19,000;Hibernate Session closed unexpected.;wangyb7;;https://jira.spring.io/browse/SPR-9514
+SPR-10909;2013-09-11T06:45:08,000;2013-09-11T11:30:41,000;Built-in customCollectionEditor partially overrides registered property editor;pelu;;https://jira.spring.io/browse/SPR-10909
+SPR-10406;2013-03-21T08:32:52,000;2013-11-01T10:12:50,000;Filter ressource and ajax/jsp;jean paul audran;;https://jira.spring.io/browse/SPR-10406
+SPR-9673;2012-08-07T11:09:49,000;2013-01-22T23:36:07,000;Memory Leak Quartz Hibernate;mschipperheyn;;https://jira.spring.io/browse/SPR-9673
+SPR-10043;2012-11-27T01:50:51,000;2013-01-22T23:36:30,000;Spring AOP: If source method has annotation autoproxy create proxy method without annotation;dsklyarov;;https://jira.spring.io/browse/SPR-10043
+SPR-9873;2012-10-11T01:52:20,000;2014-04-21T23:07:11,000;Adding pointcut which matches @Configuration class breaks the Application Context;jbaruch;;https://jira.spring.io/browse/SPR-9873
+SPR-10316;2013-02-20T01:31:18,000;2014-04-21T23:07:15,000;PropertyPlaceholderConfigurer causes premature bean initialization;jkubrynski;;https://jira.spring.io/browse/SPR-10316
+SPR-10863;2013-08-27T05:04:58,000;2013-09-02T08:21:50,000;o.s.b.f.s.DisposableBeanAdapter trying to call non-existing destroy() method, then logs WARN;ceefour;;https://jira.spring.io/browse/SPR-10863
+SPR-9034;2012-01-18T07:13:19,000;2013-01-22T23:35:05,000;"TagTransform does not refresh page context in a &lt;c:foreach&gt; loop";eden91940;;https://jira.spring.io/browse/SPR-9034
+SPR-9184;2012-02-29T04:59:01,000;2013-01-22T23:35:53,000;Spring MVC Portlet 2.0 @EventMapping is not recognized;bassem;;https://jira.spring.io/browse/SPR-9184
+SPR-7889;2011-01-16T13:08:00,000;2014-05-20T08:04:22,000;AbstractJmsListeningContainer - No auto start;buyukim;;https://jira.spring.io/browse/SPR-7889
+SPR-5333;2008-12-01T19:49:06,000;2013-01-22T23:35:14,000;"PersistenceAnnotationBeanPostProcessor loads all ""lazy"" beans also";imsathya;;https://jira.spring.io/browse/SPR-5333
+SPR-8276;2011-04-26T11:51:09,000;2013-01-22T23:36:26,000;using jsp:include to include spring action caused infinite loop;chenhuieb;;https://jira.spring.io/browse/SPR-8276
+SPR-11983;2014-07-11T07:03:30,000;2015-01-22T14:44:43,000;FormattingConversionService$AnnotationConverterKey.hashCode() throws NullPointerException;marcelstoer;;https://jira.spring.io/browse/SPR-11983
+SPR-7509;2010-08-31T01:09:40,000;2015-09-04T09:52:35,000;JSP tag spring:eval does not apply @NumberFormat and @DateTimeFormat formatting on the expression when using the var attribute;desmethans;;https://jira.spring.io/browse/SPR-7509
+SPR-14813;2016-10-14T17:10:08,000;2016-10-19T21:29:39,000;simp allows glob subscription to receive another user messages;yury.altukhou@gmail.com;;https://jira.spring.io/browse/SPR-14813
+SPR-14001;2016-02-29T14:41:45,000;2016-02-29T15:00:11,000;convertPropertyValue (for reading encrypted values) not working;afattahi;;https://jira.spring.io/browse/SPR-14001
+SPR-14411;2016-06-28T12:07:45,000;2016-06-29T09:02:31,000;Content negotiation fails with the conjonction of text/plain and ExceptionHandler;poussma;;https://jira.spring.io/browse/SPR-14411
+SPR-12953;2015-04-24T22:07:11,000;2015-04-27T06:57:50,000;DispatcherServlet throw two Exceptions when the uploading file exceed the limit size;nivance;;https://jira.spring.io/browse/SPR-12953
+SPR-10516;2013-05-03T16:16:56,000;2013-09-26T06:19:32,000;Default model values are always copied into the redirect model when RedirectAttributes are used;dhomann;;https://jira.spring.io/browse/SPR-10516
+SPR-14784;2016-10-06T13:58:12,000;2016-10-06T15:20:13,000;java.io.IOException: Stream is closed (HttpOutputStreamImpl);plancik.m;;https://jira.spring.io/browse/SPR-14784
+SPR-4963;2008-06-27T01:13:06,000;2015-05-03T09:36:20,000;LTW spring-agent Weaving not performed within Test, if class to be woven is referenced by Generic Variable declaration;baronludwig;;https://jira.spring.io/browse/SPR-4963
+SPR-8599;2011-08-10T05:15:48,000;2013-01-22T23:35:35,000;"@InitBinder - registered PropertyEditor for Class &lt;A&gt; not called if a constructor for Class &lt;A&gt; with a string Argument exists";tkrah;;https://jira.spring.io/browse/SPR-8599
+SPR-14838;2016-10-21T20:59:52,000;2016-10-22T19:13:46,000;JpaTransactionManager is not passing on constraint violations with Hibernate 5.2;elbulla1;;https://jira.spring.io/browse/SPR-14838
+SPR-10473;2013-04-18T07:13:43,000;2013-04-18T07:13:43,000;NoSuchBeanDefinitionException when upgrading from 3.2.1.RELEASE to 3.2.2.RELEASE;rwitzel;;https://jira.spring.io/browse/SPR-10473
+SPR-14834;2016-10-21T10:46:45,000;2016-11-05T20:48:44,000;No bean of type ConfigurableEnvironment in AbstractTestNGSpringContextTests;ahoehma;;https://jira.spring.io/browse/SPR-14834
+SPR-14096;2016-03-30T01:41:00,000;2016-10-04T12:51:01,000;DelegatingWebMvcConfiguration#addFormatters fires before autowiring;w_c_smith;;https://jira.spring.io/browse/SPR-14096
+SPR-14835;2016-10-21T12:47:24,000;2016-11-14T14:40:18,000;Spring MVC binding of email influences other fields too;Geooorg;;https://jira.spring.io/browse/SPR-14835
+SPR-14757;2016-09-27T10:54:02,000;2016-10-14T15:25:28,000;Spring Websocket is leaking ThreadPoolExecutor queue tasks;AskarIbragimov;;https://jira.spring.io/browse/SPR-14757
+SPR-8573;2011-07-31T23:21:11,000;2013-01-22T23:35:20,000;Incorrect default transaction manager when multiple transaction managers exist;bozho;;https://jira.spring.io/browse/SPR-8573
+SPR-11981;2014-07-10T05:16:16,000;2014-10-15T02:25:28,000;Inconsistent support for RequestCallback in HttpComponentsClientHttpRequestFactory;snicoll;;https://jira.spring.io/browse/SPR-11981
+SPR-9095;2012-02-06T21:24:17,000;2013-01-22T23:34:39,000;DestructionCallbackBindingListener is Serializable but contains non-serializable Runnable reference;codevally;;https://jira.spring.io/browse/SPR-9095
+SPR-9019;2012-01-12T02:54:07,000;2015-09-08T15:06:37,000;@EnableSpringConfigured gives BeanFactory has not been set on BeanConfigurerSupport;marceloverdijk;;https://jira.spring.io/browse/SPR-9019
+SPR-11976;2014-07-08T14:07:19,000;2014-07-09T16:55:12,000;LocalSessionFactoryBuilder instance not getting hibernate properties from config file when the buildSessionFactory method is overridden when using hibernate 4;suyashgandhi;;https://jira.spring.io/browse/SPR-11976
+SPR-8866;2011-11-22T03:45:06,000;2013-01-22T23:35:42,000;Default element remains added while form property binds to a List type datatype;apurav;;https://jira.spring.io/browse/SPR-8866
+SPR-14887;2016-11-08T13:28:11,000;2016-11-08T15:31:03,000;Execute getBeansWithAnnotation when bean has a @RefreshScope annotation returns unexpected number of results;sanderwartenberg;;https://jira.spring.io/browse/SPR-14887
+SPR-10689;2013-06-25T12:26:18,000;2014-01-25T02:48:09,000;"&lt;lang:groovy&gt; tag in version 2.5 and higher doesn't work for refreshable Spring MVC endpoints";dpp3651;;https://jira.spring.io/browse/SPR-10689
+SPR-14320;2016-05-31T09:20:37,000;2016-06-01T20:22:09,000;ThreadPoolTaskExecutor behaves different than ThreadPoolExecutor;membersound;;https://jira.spring.io/browse/SPR-14320
+SPR-8566;2011-07-28T08:31:46,000;2014-04-21T23:07:17,000;The advice is not executed for pointcuts that are defined to select custom-annotated methods, where these methods are already annotated with spring annotations;hithem mohamed;;https://jira.spring.io/browse/SPR-8566
+SPR-11336;2014-01-20T18:11:38,000;2014-03-16T10:24:23,000;orm.xml named queries transaction throw RollbackException;grf110;;https://jira.spring.io/browse/SPR-11336
+SPR-8018;2011-03-02T22:56:27,000;2013-01-22T23:35:15,000;ConfigurationClassBeanDefinitionReader:processFeatureAnnotations uses new SimpleMetadataReaderFactory() instead of using the metadataReaderFactory member;barnash;;https://jira.spring.io/browse/SPR-8018
+SPR-7605;2010-09-30T07:37:56,000;2013-01-22T23:35:06,000;SessionFactoryUtils.doGetSession creates new session holder without JTA transaction;siarhei_sakovich;;https://jira.spring.io/browse/SPR-7605
+SPR-5454;2009-02-03T00:56:00,000;2013-01-22T23:35:34,000;Connection released too early;mauromol;;https://jira.spring.io/browse/SPR-5454
+SPR-12907;2015-04-13T15:43:29,000;2015-04-28T08:53:20,000;Concurrent session attributes updates potentially lost;StevenMaurer;;https://jira.spring.io/browse/SPR-12907
+SPR-12204;2014-09-16T14:21:53,000;2014-10-06T08:09:11,000;Deferred not working with tomcat 8;mooshben;;https://jira.spring.io/browse/SPR-12204
+SPR-14894;2016-11-10T10:33:05,000;2016-11-10T11:38:06,000;WebClient ArrayIndexOutOfBoundsException;kovrizhin;;https://jira.spring.io/browse/SPR-14894
+SPR-14903;2016-11-13T20:22:55,000;2016-11-14T12:15:34,000;"Early ""Constructor Injection"" beans ignore @Transactional silently when  using @EnableTransactionManagement";chersevoort;;https://jira.spring.io/browse/SPR-14903
+SPR-14917;2016-11-17T11:20:06,000;2016-11-21T16:39:53,000;AbstractSockJsSession deadlock when tomcat WsSession is closing;kali_hindi;;https://jira.spring.io/browse/SPR-14917
+SPR-14860;2016-10-29T11:31:55,000;2016-11-07T10:31:20,000;RestTemplate POST and PUT don't work with Netty4ClientHttpRequestFactory;eseidinger;;https://jira.spring.io/browse/SPR-14860
+SPR-14892;2016-11-09T16:18:17,000;2016-11-21T21:39:45,000;Injecting bean in configurable class using load time weaving broken after update SPR from 4.3.3 to 4.3.4;holger;;https://jira.spring.io/browse/SPR-14892
+SPR-9269;2012-03-27T04:27:53,000;2013-01-22T23:36:01,000;MailSender blocks instead of throwing exception for incorrect parameters;shalvika;;https://jira.spring.io/browse/SPR-9269
+SPR-13287;2015-07-29T06:05:10,000;2015-07-29T23:51:16,000;Undefined behaviour for annotation based configs when method return type doesn't match returned object;rannick;;https://jira.spring.io/browse/SPR-13287
+SPR-13773;2015-12-07T15:55:49,000;2015-12-08T01:51:25,000;spring mvc  not support (args/entity) primitive types;chaodongyue;;https://jira.spring.io/browse/SPR-13773
+SPR-11693;2014-04-14T10:37:55,000;2014-04-17T09:23:02,000;ConversionService cannot convert from Object to String anymore by default;olivergierke;;https://jira.spring.io/browse/SPR-11693
+SPR-10729;2013-07-09T06:10:49,000;2014-10-07T07:26:23,000;FieldError/ConversionFailedException: XSS risk?;cwong15;;https://jira.spring.io/browse/SPR-10729
+SPR-11059;2013-11-02T20:18:31,000;2013-11-02T20:18:31,000;Bad input type when calling processFieldValue for hiddens generated for checkboxes;dfernandez;;https://jira.spring.io/browse/SPR-11059
+SPR-10858;2013-08-26T02:02:09,000;2013-08-26T05:54:30,000;"When I do 1)change properties 2)context.refresh() 3)request MySpringMVCController -&gt;  Then I get old version of MySpringMVCController with old properties.";rurik;;https://jira.spring.io/browse/SPR-10858
+SPR-10871;2013-08-28T06:40:48,000;2013-09-02T06:48:07,000;AspectJExpressionPointcut unpredictable behavior in OSGi environment;bsko;;https://jira.spring.io/browse/SPR-10871
+SPR-10776;2013-07-24T04:04:06,000;2013-07-24T04:04:06,000;Defaultmessagelistenercontainer - Consumer are not scaling upto  maxConcurrentConsumers value;anish.k@tcs.com;;https://jira.spring.io/browse/SPR-10776
+SPR-10901;2013-09-09T07:26:57,000;2013-09-15T13:56:05,000;FactoryBean acts in a prototype way;lfty;;https://jira.spring.io/browse/SPR-10901
+SPR-10722;2013-07-04T16:22:12,000;2013-07-04T16:22:12,000;Java configuration @EnableJpaRepositories,DefaultListableBeanFactory - allowBeanDefinitionOverriding = false context not started;igieon;;https://jira.spring.io/browse/SPR-10722
+SPR-10489;2013-04-25T05:18:16,000;2013-04-25T05:18:16,000;Transitive dependencies of a (Smart)Lifecycle bean aren't started before the bean;tuure.laurinolli@portalify.com;;https://jira.spring.io/browse/SPR-10489
+SPR-10478;2013-04-20T12:45:35,000;2013-04-21T02:51:22,000;Caching problem in AutowiredAnnotationBeanPostProcessor with Autowired collections in prototype beans;john16384;;https://jira.spring.io/browse/SPR-10478
+SPR-10451;2013-04-08T23:31:26,000;2014-04-21T23:07:11,000;DispatcherServlet.properties missing in source jar file;simonwg;;https://jira.spring.io/browse/SPR-10451
+SPR-10434;2013-04-02T01:33:26,000;2013-04-02T01:33:26,000;org.springframework.transaction.aspectj.AbstractTransactionAspect$AbstractTransactionAspect not found after updating to 3.2.2;flavio.donze;;https://jira.spring.io/browse/SPR-10434
+SPR-10433;2013-04-01T10:07:09,000;2013-04-01T10:07:09,000;"org.springframework.ui.ModelMap#addAllAttributes &amp; #mergeAttributes allow null keys";davids_s;;https://jira.spring.io/browse/SPR-10433
+SPR-14061;2016-03-16T16:27:42,000;2016-03-16T16:44:26,000;Deadlock publishing events during parallel initialization;tsachev;;https://jira.spring.io/browse/SPR-14061
+SPR-5575;2009-03-16T12:09:03,000;2013-01-22T23:35:45,000;AntPathMatcher.extractPathWithinPattern() does not work correct for multi directory matches;wh1337;;https://jira.spring.io/browse/SPR-5575
+SPR-6277;2009-10-26T23:36:08,000;2013-01-22T23:35:56,000;RmiServiceExporter fails to export a UnicastRemoteObject;jhominal;;https://jira.spring.io/browse/SPR-6277
+SPR-5453;2009-02-03T00:08:02,000;2013-01-22T23:35:11,000;The default Aspect Order should not be Ordered.LOWEST_PRECEDENCE;kek;;https://jira.spring.io/browse/SPR-5453
+SPR-7255;2010-06-02T23:32:09,000;2013-01-22T23:34:35,000;SqlMapClientTemplate does not reuse current logical connection from one Ibatis session to another and results in extra JNDI calls when using JNDI datasource.;callain_accovia;;https://jira.spring.io/browse/SPR-7255
+SPR-7864;2011-01-07T07:17:33,000;2013-01-22T23:35:32,000;Aop-scoped-proxy FactoryBean triggers getObject for every method invocation;magott;;https://jira.spring.io/browse/SPR-7864
+SPR-7892;2011-01-17T09:11:08,000;2013-01-22T23:36:15,000;"RuntimeTestWalker throws an AccessControlException ""access denied java.lang.reflect.ReflectPermission suppressAccessChecks"" if we use a security policy";cchabanois;;https://jira.spring.io/browse/SPR-7892
+SPR-8302;2011-05-06T08:03:21,000;2013-01-22T23:36:12,000;"cxf/spring ""eats"" entityManagerFactory exception and hides stacktrace";mschipperheyn;;https://jira.spring.io/browse/SPR-8302
+SPR-8002;2011-02-24T19:41:08,000;2013-01-22T23:36:00,000;javax.inject.Provider instances injected by container not Serializable;kdonald;;https://jira.spring.io/browse/SPR-8002
+SPR-7932;2011-02-03T00:53:15,000;2013-01-22T23:35:50,000;Usable to pass a derived classobject as an argument to method;gdelprete;;https://jira.spring.io/browse/SPR-7932
+SPR-8009;2011-03-01T09:14:27,000;2013-01-22T23:35:07,000;WebSphereUowTransactionManager does not reset transaction timeout for UOW_TYPE_GLOBAL_TRANSACTION to default value once set;lukas.herman;;https://jira.spring.io/browse/SPR-8009
+SPR-8028;2011-03-08T13:16:46,000;2013-01-22T23:35:15,000;Calling BeanDefinition.isAbstract() from within BeanDefinitionPostProcessor blows up the context;davidkarlsen;;https://jira.spring.io/browse/SPR-8028
+SPR-9207;2012-03-07T05:21:33,000;2013-01-22T23:36:45,000;"ViewRenderer in Portlet tries to access LocaleResolver object from different webapp classloader -&gt; ClassCastException";schrom;;https://jira.spring.io/browse/SPR-9207
+SPR-9214;2012-03-09T08:20:04,000;2013-01-22T23:34:39,000;Form:select and form:options no longer work as they used to in 3.0.5 for enums;david kerwick;;https://jira.spring.io/browse/SPR-9214
+SPR-9061;2012-01-26T05:47:06,000;2014-04-28T01:40:40,000;AnnotationBeanConfigurerAspect doesn't get properly initialized if load-time-weaver element appears before component-scan element.;silvaran;;https://jira.spring.io/browse/SPR-9061
+SPR-9033;2012-01-18T06:52:30,000;2013-01-22T23:35:50,000;Multiselect is rendered with both pre-conversion and post-conversion values selected.;finn;;https://jira.spring.io/browse/SPR-9033
+SPR-9672;2012-08-07T07:22:21,000;2014-04-30T04:29:33,000;Destroy method of session scoped bean cannot access other session scoped bean;sebpaul;;https://jira.spring.io/browse/SPR-9672
+SPR-9674;2012-08-08T06:13:27,000;2013-01-22T23:35:32,000;Spring Select tag sometime unpopulated until page is refreshed.;jcronin;;https://jira.spring.io/browse/SPR-9674
+SPR-9539;2012-06-24T12:47:44,000;2014-04-21T23:07:17,000;"Bridge methods in @Configuration classes ""randomly"" leads to infinite recursion during context";mschulte;;https://jira.spring.io/browse/SPR-9539
+SPR-9462;2012-06-02T01:10:18,000;2014-04-21T23:07:21,000;@Transactional won't be proper resolved to AspectJ Join point with Glassfish 3.1.2;fp07;;https://jira.spring.io/browse/SPR-9462
+SPR-9743;2012-08-30T07:56:37,000;2013-01-22T23:36:46,000;"using javax.servlet.http.Part with RequestParam results in IllegalStateException (""no matching editors or conversion strategy found"")";stefan12345;;https://jira.spring.io/browse/SPR-9743
+SPR-9993;2012-11-15T13:24:32,000;2013-02-08T15:51:01,000;form:form tag doesn't urlencode generated action attribute;spr1ng.n1;;https://jira.spring.io/browse/SPR-9993
+SPR-10246;2013-01-31T00:44:07,000;2013-02-01T08:46:14,000;"spring.ftl: hidden ""_"" input field with checkboxes must be disabled";birnbuazn;;https://jira.spring.io/browse/SPR-10246
+SPR-10016;2012-11-21T22:31:26,000;2014-04-21T23:07:20,000;PropertyAccessException stacktrace truncation;liamknox;;https://jira.spring.io/browse/SPR-10016
+SPR-10083;2012-12-07T05:15:31,000;2014-04-28T01:30:12,000;Initialization ordering problems with @Enable*;david_syer;;https://jira.spring.io/browse/SPR-10083
+SPR-9820;2012-09-22T05:34:48,000;2013-01-22T23:36:43,000;Request scoped bean (Hibernate entity) gets saved with null values;bladositto;;https://jira.spring.io/browse/SPR-9820
+SPR-9894;2012-10-19T10:18:57,000;2014-04-21T23:07:23,000;Regression: In an ApplicationContext hierarchy a bean defined in a child context receives the parent's Environment;phjardas;;https://jira.spring.io/browse/SPR-9894
+SPR-10379;2013-03-14T13:28:06,000;2013-03-15T04:44:10,000;Spring MVC Test throws 500 error when no accept header is present;prestoncrawford;;https://jira.spring.io/browse/SPR-10379
+SPR-10842;2013-08-17T01:36:40,000;2013-09-22T12:07:38,000;SessionAttributes/ModelAttribute initialization is inconsistent.  2 controllers using same view, SessionAttributes not invoked, same model name in both controllers;pelu;;https://jira.spring.io/browse/SPR-10842
+SPR-10899;2013-09-06T07:42:25,000;2013-11-05T14:52:02,000;Issue when using dot(.) in RequestMapping path combined with ContentNegotiationManager favorPathExtension;cgendreau;;https://jira.spring.io/browse/SPR-10899
+SPR-10741;2013-07-15T10:48:31,000;2013-07-22T21:22:36,000;Annotation pointcut does not work with package restriction;gordon.mckinney;;https://jira.spring.io/browse/SPR-10741
+SPR-10575;2013-05-20T06:31:12,000;2014-11-25T05:51:17,000;Spring MVC 3 JSON POST failure to handle advanced JSR 303 Group Constraints - 415 Unsupported Media Type;arcseldon@hotmail.com;;https://jira.spring.io/browse/SPR-10575
+SPR-11664;2014-04-04T13:51:04,000;2014-04-09T11:14:22,000;AbstractEnterpriseBean.BeanFactoryReferenceReleaseListener causes memory leak;fomar;;https://jira.spring.io/browse/SPR-11664
+SPR-11127;2013-11-26T22:33:12,000;2013-12-02T16:04:32,000;Issue with Spring 3.2.4RELEASE with Quartz 1.8.3 integration;bindunagesh;;https://jira.spring.io/browse/SPR-11127
+SPR-11859;2014-06-09T08:54:59,000;2014-07-22T10:22:47,000;"BeanFactory.getBeansOfType(Class&lt;T&gt; type) causes BeanNotOfRequiredTypeException, when we request by class, but bean is a Proxy";abilan;;https://jira.spring.io/browse/SPR-11859
+SPR-12146;2014-09-03T04:55:45,000;2014-09-03T09:47:30,000;Spring doesn't remove the jsessionid when the request url is encoded;florin30642;;https://jira.spring.io/browse/SPR-12146
+SPR-12069;2014-08-05T23:47:31,000;2014-08-18T12:08:48,000;redirect prefix gives error as javax.servlet.ServletException;kamleshraul;;https://jira.spring.io/browse/SPR-12069
+SPR-12573;2014-12-29T01:37:38,000;2014-12-29T05:44:22,000;formCheckboxes macro should use seq_contains for selected check;tinussky;;https://jira.spring.io/browse/SPR-12573
+SPR-13454;2015-09-09T12:44:21,000;2015-09-09T15:55:03,000;AOP: LoadTimeWeaving not working for @Configurable annotated POJO;cimnine;;https://jira.spring.io/browse/SPR-13454
+SPR-13573;2015-10-15T00:37:40,000;2015-10-15T07:19:05,000;Facing error while using IncludeFilter with @ComponentScan;puneetbansal;;https://jira.spring.io/browse/SPR-13573
+SPR-13885;2016-01-25T08:55:14,000;2016-01-25T09:07:19,000;Incorrect scheduled task behavior when using sleep/hibernate;martin.formanko@gmail.com;;https://jira.spring.io/browse/SPR-13885
+SPR-13476;2015-09-21T05:49:51,000;2015-09-21T18:32:10,000;Spring AOP generates a proxy which implements a parent's interface;tasyrkin;;https://jira.spring.io/browse/SPR-13476
+SPR-13740;2015-10-04T11:30:35,000;2016-04-05T11:27:34,000;Issue with Storedprocedurename contains '-' symbol giving error like invalid parameter at index 1;bkoripalli;;https://jira.spring.io/browse/SPR-13740
+SPR-6942;2010-03-03T22:03:48,000;2013-01-22T23:35:07,000;java.lang.NoSuchMethodError when calling a class that extends org.springframework.web.util.CookieGenerator from Spring 2 but that it is been used in Spring 3.;jperezgarcia;;https://jira.spring.io/browse/SPR-6942
+SPR-7882;2011-01-13T04:38:01,000;2013-01-22T23:35:30,000;DefaultHandlerExceptionResolver should not set response headers after calling sendError when handling HttpMediaTypeNotSupportedException;casey;;https://jira.spring.io/browse/SPR-7882
+SPR-7697;2010-10-29T08:29:36,000;2014-04-21T23:07:06,000;Multiple PropertyPlaceholderConfigurers using @Component don't have unique bean names;jonnio;;https://jira.spring.io/browse/SPR-7697
+SPR-7740;2010-11-12T07:21:16,000;2013-01-22T23:35:05,000;AbstractPoolingTargetSource : Severe limitation on PoolConfig Mixin when pool is exhausted;farrault;;https://jira.spring.io/browse/SPR-7740
+SPR-7626;2010-10-07T12:23:06,000;2013-01-22T23:35:26,000;"Auto proxying does not seem to work for interfaces with ""generices"" parameter types";kyrill007;;https://jira.spring.io/browse/SPR-7626
+SPR-7606;2010-09-30T08:28:29,000;2013-01-22T23:35:05,000;Spring 3.0.2.RELEASE breaks classpath settings in manifest.mf;proggerpete;;https://jira.spring.io/browse/SPR-7606
+SPR-7855;2011-01-02T14:11:29,000;2013-01-22T23:35:21,000;Portlet - DefaultAnnotationHandlerMapping @ActionMapping issue;lisak;;https://jira.spring.io/browse/SPR-7855
+SPR-7644;2010-10-11T12:21:20,000;2013-01-22T23:36:12,000;mapping a parameter with a Dot;khaigo;;https://jira.spring.io/browse/SPR-7644
+SPR-8087;2011-03-25T09:08:44,000;2013-01-22T23:36:45,000;REQUIRES_NEW creates 2 extra transactions;westraj;;https://jira.spring.io/browse/SPR-8087
+SPR-8253;2011-04-15T08:13:38,000;2013-01-22T23:35:42,000;"Log4jConfigurer JavaDoc wrongly states that ""classpath:"" location is supported, but that only works with refreshInterval";vorburger;;https://jira.spring.io/browse/SPR-8253
+SPR-8004;2011-02-28T07:51:31,000;2013-01-22T23:35:17,000;Tiles ELAttributeElevator is not properly instanciated.;bheurter;;https://jira.spring.io/browse/SPR-8004
+SPR-8014;2011-03-02T07:19:39,000;2013-01-22T23:35:29,000;Concurrency issue related to prototype creation and AOP(AspectJ);de_tom;;https://jira.spring.io/browse/SPR-8014
+SPR-8176;2011-04-02T10:16:34,000;2013-01-22T23:35:07,000;DefaultResourceLoader does not uses classloader to create URL instances for resources, thus custom classloader will be ignored;h143570;;https://jira.spring.io/browse/SPR-8176
+SPR-8535;2011-07-14T10:24:30,000;2014-04-28T01:26:17,000;packages listed in component-scan in applicationContext.xmls must be on a single line- newlines and whitespaces in URL otherwise;nocturna_gr;;https://jira.spring.io/browse/SPR-8535
+SPR-7922;2011-01-31T01:21:08,000;2013-01-22T23:36:38,000;aop:aspectj-autoxproxy filters aspect beans but not advisor beans when using aop:include;cchabanois;;https://jira.spring.io/browse/SPR-7922
+SPR-8948;2011-12-20T01:51:19,000;2014-04-21T23:07:25,000;about applicationcontext load;simplelife1;;https://jira.spring.io/browse/SPR-8948
+SPR-9155;2012-02-23T06:46:53,000;2014-06-19T12:09:19,000;@Autowired(required=false) does not work as documented for constructor injection of optional Collection dependencies;awilkinson;;https://jira.spring.io/browse/SPR-9155
+SPR-9403;2012-05-12T12:21:46,000;2014-04-21T23:07:18,000;Hibernate, using JndiObjectFactoryBean works for 3.0.6 but not for 3.1.1;bernd;;https://jira.spring.io/browse/SPR-9403
+SPR-9523;2012-06-20T07:52:24,000;2014-04-21T23:07:12,000;NumberUtils.parseNumber() incorrectly stripping whitespace;prohr;;https://jira.spring.io/browse/SPR-9523
+SPR-9402;2012-05-12T09:09:18,000;2014-04-21T23:07:22,000;NullPointerException when using MessageSourceResourceBundle containsKey and keySet methods;nicolas.krier;;https://jira.spring.io/browse/SPR-9402
+SPR-9416;2012-05-16T07:58:24,000;2013-01-22T23:36:18,000;AbstractWizardFormController does not change page when redirectAction set to true;jolangloys;;https://jira.spring.io/browse/SPR-9416
+SPR-10060;2012-11-29T12:43:37,000;2013-01-22T23:34:59,000;JRubyScriptFactory leaves MBean's registered;rwinch;;https://jira.spring.io/browse/SPR-10060
+SPR-9884;2012-10-17T03:50:36,000;2014-04-21T23:07:26,000;AbstractJdbcInsert/SimpleJdbcInsert inserts nulls into columns with database defaults.;magnusj;;https://jira.spring.io/browse/SPR-9884
+SPR-9706;2012-08-18T21:51:36,000;2013-01-22T23:36:37,000;Theme does not work;emertana;;https://jira.spring.io/browse/SPR-9706
+SPR-10142;2013-01-03T05:40:19,000;2013-01-22T23:35:20,000;Two forms in one jsp;kokkie;;https://jira.spring.io/browse/SPR-10142
+SPR-9981;2012-11-11T19:51:36,000;2014-04-21T23:07:25,000;Explicitly notify when a bean initialized using factory bean paradigm also implements FactoryBean;kilokahn;;https://jira.spring.io/browse/SPR-9981
+SPR-9830;2012-09-25T12:36:15,000;2013-01-22T23:36:40,000;Websphere Grails Classloader issues;dedraelos;;https://jira.spring.io/browse/SPR-9830
+SPR-10598;2013-05-28T22:25:27,000;2013-05-31T08:42:27,000;DefaultLifecycleProcessor auto start lazy-init bean;veaven;;https://jira.spring.io/browse/SPR-10598
+SPR-10393;2013-03-18T09:07:19,000;2013-03-19T10:13:42,000;Injection of property by annotation skipped when a previous similar bean was initialized by a setter;neimoidia;;https://jira.spring.io/browse/SPR-10393
+SPR-10692;2013-06-26T06:47:20,000;2013-06-27T11:03:20,000;FlashMap matching fails when URL contains non-ascii parameters;re6exp;;https://jira.spring.io/browse/SPR-10692
+SPR-10494;2013-04-25T23:45:02,000;2013-10-18T06:21:20,000;spring-web not published with Eclipse 4.2, WAS 7.0 and mvn 3;faetzminator;;https://jira.spring.io/browse/SPR-10494
+SPR-11418;2014-02-11T20:13:11,000;2014-02-12T02:32:55,000;Threading issues causing apparent deadlock;robert.stettler@capitalone.com;;https://jira.spring.io/browse/SPR-11418
+SPR-11696;2014-04-15T08:13:47,000;2014-04-15T08:24:25,000;JavaConfig and LTW does not work;liamjknox;;https://jira.spring.io/browse/SPR-11696
+SPR-12376;2014-10-25T12:25:38,000;2015-05-10T03:54:20,000;@Configurable doesn't work with LTW if configurable class has a method returning another configurable class;cmrudolph;;https://jira.spring.io/browse/SPR-12376
+SPR-13636;2015-11-03T08:44:52,000;2015-11-03T08:59:50,000;Circular reference error with FactoryBeans;jonathan.mak;;https://jira.spring.io/browse/SPR-13636
+SPR-8230;2011-04-07T06:06:50,000;2013-01-22T23:35:13,000;GlassFishWorkManagerTaskExecutor fails to lookup ThreadPool;domi;;https://jira.spring.io/browse/SPR-8230
+SPR-8950;2011-12-20T09:51:43,000;2013-01-22T23:35:54,000;"Converting empty form inputs into null using a custom Converter causes backing object fields to be populated with the string ""null""";ccoffman;;https://jira.spring.io/browse/SPR-8950
+SPR-8951;2011-12-20T15:23:51,000;2014-04-21T23:07:13,000;@Controller combined with @Transactional does not work on a class that implements a java interface;smharris;;https://jira.spring.io/browse/SPR-8951
+SPR-9697;2012-08-16T16:19:53,000;2013-01-22T23:35:41,000;DefaultAnnotationHandlerMapping is not able to find correct handler;arun7it;;https://jira.spring.io/browse/SPR-9697
+SPR-9606;2012-07-19T08:28:11,000;2013-01-22T23:36:03,000;Issue with unchecked checkboxes bound to Booleans as values in a Map;grayedog;;https://jira.spring.io/browse/SPR-9606
+SPR-9322;2012-04-11T14:29:52,000;2014-04-21T23:07:19,000;Inconsistent dependency injection of proxied bean;profiprog;;https://jira.spring.io/browse/SPR-9322
+SPR-9256;2012-03-21T10:58:42,000;2014-04-21T23:07:11,000;Concurrent retrieval of prototype-scoped beans may result in null @Autowired fields;kyrill007;;https://jira.spring.io/browse/SPR-9256
+SPR-9562;2012-07-04T10:49:39,000;2013-01-22T23:36:36,000;(validation) Random error order in BindingResult object;bkandrei;;https://jira.spring.io/browse/SPR-9562
+SPR-9270;2012-03-27T10:51:45,000;2014-04-21T23:07:16,000;Generic factory method and constructor-arg in Spring DI (xml);grozniecki;;https://jira.spring.io/browse/SPR-9270
+SPR-9452;2012-05-29T08:36:52,000;2013-01-22T23:35:45,000;JasperReportsMultiFormatView, define headers in a properties file and override it at execution time;phoboss;;https://jira.spring.io/browse/SPR-9452
+SPR-9550;2012-06-28T16:43:13,000;2014-04-21T23:07:24,000;Properties in the JDBC URL got stripped out for Mysql connector;dumbird;;https://jira.spring.io/browse/SPR-9550
+SPR-10206;2013-01-22T09:45:29,000;2013-01-29T16:23:16,000;IllegalAccessError with load time weaving enabled.;maximmold;;https://jira.spring.io/browse/SPR-10206
+SPR-10416;2013-03-25T09:43:31,000;2014-04-21T23:07:26,000;Seemingly unavoidable @Resource injection when creating bean via @Configuration class;markdingram;;https://jira.spring.io/browse/SPR-10416
+SPR-10332;2013-02-25T14:14:35,000;2013-11-19T05:31:31,000;Spring 3.0 + Websphere 7.0 + JMS;patelmiral;;https://jira.spring.io/browse/SPR-10332
+SPR-10946;2013-09-30T05:54:35,000;2013-10-18T12:41:14,000;Spring's Freemarker macros do not evaluate defaultHtmlEscaping;birnbuazn;;https://jira.spring.io/browse/SPR-10946
+SPR-11047;2013-10-30T09:20:17,000;2014-07-17T02:02:47,000;URLs not decoded properly;hessben;;https://jira.spring.io/browse/SPR-11047
+SPR-10989;2013-10-15T05:37:25,000;2013-10-18T12:00:09,000;Can't use place-holder on task:executor rejection-policy value;galusben@gmail.com;;https://jira.spring.io/browse/SPR-10989
+SPR-10991;2013-10-15T22:06:42,000;2013-11-15T07:53:53,000;unsupported method for 'put' when spring form tag's method is 'put' and enctype is multipart/form-data.;wayshall;;https://jira.spring.io/browse/SPR-10991
+SPR-11095;2013-11-17T07:27:07,000;2013-11-22T05:57:11,000;spring 3.2.5 jmx exception when create MBeans;jerry2014;;https://jira.spring.io/browse/SPR-11095
+SPR-11051;2013-10-31T05:28:31,000;2013-10-31T06:15:18,000;FactoryBean with constructor-arg placeholder in XML cannot be resolved if ApplicationContext is required for creating placeholder configuration;david_syer;;https://jira.spring.io/browse/SPR-11051
+SPR-12276;2014-09-30T13:48:54,000;2014-10-26T03:56:05,000;MBeanExportConfiguration WebSphere detection;andrevtg;;https://jira.spring.io/browse/SPR-12276
+SPR-13036;2015-05-16T01:29:46,000;2015-05-16T14:40:04,000;Order of Autowired change success of fail status;blasd;;https://jira.spring.io/browse/SPR-13036
+SPR-13113;2015-06-11T06:00:21,000;2015-06-11T07:25:26,000;proxy generated by @Validated is not considered as a DynamicMBean;matlach;;https://jira.spring.io/browse/SPR-13113
+SPR-13466;2015-09-15T15:15:02,000;2015-09-15T22:46:51,000;JMS Listener not getting message is scope prototype;xenoterracide;;https://jira.spring.io/browse/SPR-13466
+SPR-11897;2014-06-22T08:49:09,000;2014-06-28T01:57:33,000;"@PathVariable &amp; @MatrixVariable do not work as documented when ""="" is in the path variable value part (pre "";"")";boaz;;https://jira.spring.io/browse/SPR-11897
+SPR-13398;2015-08-27T08:24:24,000;2015-10-24T16:53:09,000;YamlMapFactoryBean wraps integer keys with square brackets;anthofo;;https://jira.spring.io/browse/SPR-13398
+SPR-10253;2013-02-03T09:35:31,000;2016-01-21T08:22:12,000;Refreshing annotated Groovy controllers cause ClassCastException;arnolf;;https://jira.spring.io/browse/SPR-10253
+SPR-8293;2011-05-05T00:00:28,000;2013-01-22T23:36:09,000;DelegatingFilterProxy should hide its parameters to proxied filter;nguillaumin;;https://jira.spring.io/browse/SPR-8293
+SPR-10482;2013-04-23T09:07:02,000;2013-04-23T09:07:02,000;Deadlock in FrameworkServlet (and other clients) if another thread closes the ApplicationContext;david_syer;;https://jira.spring.io/browse/SPR-10482
+SPR-8941;2011-12-16T13:48:13,000;2014-04-21T23:07:21,000;Lifecycle processing ignores phases for circularly dependent SmartLifecycle beans;hannes.schmidt;;https://jira.spring.io/browse/SPR-8941
+SPR-8353;2011-05-19T07:34:37,000;2014-04-21T23:07:23,000;"MVC Controllers proxied with JDK Proxy (using &lt;aop:aspectj-autoproxy/&gt;) are not resolved properly";electricmonk;;https://jira.spring.io/browse/SPR-8353
+SPR-12986;2015-05-05T07:34:18,000;2015-05-07T08:04:25,000;flash attributes not mapped from session to request scope when parameter value is url encoded;patrick.bucher;;https://jira.spring.io/browse/SPR-12986
+SPR-13692;2015-11-16T16:44:16,000;2015-11-21T10:19:07,000;PropertyEditor not using getAsText when not using @InitBinder.;fritzfs;;https://jira.spring.io/browse/SPR-13692
+SPR-11079;2013-11-08T07:29:37,000;2013-11-08T07:29:37,000;JavaConfig Bean overriding succeed unexpectedly with @Configuration overriding;blasd;;https://jira.spring.io/browse/SPR-11079
+SPR-11081;2013-11-11T03:06:13,000;2013-11-11T03:06:13,000;HandlerInterceptor.postHandle() not called when handler throws exception;abuijze;;https://jira.spring.io/browse/SPR-11081
+SPR-10620;2013-06-03T02:19:26,000;2013-06-25T22:34:30,000;Fail to load the 1st line in message properties;psfung;;https://jira.spring.io/browse/SPR-10620
+SPR-13880;2016-01-21T23:31:15,000;2016-01-22T10:01:44,000;"Controller returning DeferredResult&lt;&gt; improperly closes connection on exception";saarp;;https://jira.spring.io/browse/SPR-13880
+SPR-10934;2013-09-24T22:58:58,000;2014-05-05T07:37:48,000;@annotation won't work if the Aspect is scoped with perthis;eberhardwolff;;https://jira.spring.io/browse/SPR-10934
+SPR-13914;2016-02-03T22:18:05,000;2016-02-03T23:27:56,000;Scheduled method is not invoked via proxy;mitchellbosecke@gmail.com;;https://jira.spring.io/browse/SPR-13914
+SPR-14601;2016-08-18T15:07:45,000;2016-08-18T18:13:28,000;Environment variables as properties stopped working after disabling XML validation;gionn;;https://jira.spring.io/browse/SPR-14601
+SPR-14608;2016-08-19T12:54:11,000;2016-08-26T14:13:52,000;Child spring app context refresh causes app micro downtime during which the app server responds with error 404;Igors Sakels;;https://jira.spring.io/browse/SPR-14608
+SPR-6896;2010-02-23T02:18:46,000;2013-01-22T23:35:09,000;Issue with Circular Reference when using a FactoryBean;chalmagr;;https://jira.spring.io/browse/SPR-6896
+SPR-6992;2010-03-16T00:58:03,000;2013-02-25T01:56:02,000;Cglib make it impossible to autowire a sub-class;michelz;;https://jira.spring.io/browse/SPR-6992
+SPR-7852;2010-12-29T23:23:45,000;2013-01-22T23:35:49,000;SpEL can't handle operator on systemProperty;topping;;https://jira.spring.io/browse/SPR-7852
+SPR-7844;2010-12-29T09:55:44,000;2013-01-22T23:35:46,000;Spel - doesn't have IN operator;pandeykailash;;https://jira.spring.io/browse/SPR-7844
+SPR-7726;2010-11-08T08:48:42,000;2013-01-22T23:36:14,000;SPEL throws exception when attempting to obtain static property from Map;tony_k;;https://jira.spring.io/browse/SPR-7726
+SPR-7760;2010-11-22T18:02:42,000;2013-01-22T23:34:42,000;SqlMapClientTemplate - SqlMapSession should close before Connection close;emeroad;;https://jira.spring.io/browse/SPR-7760
+SPR-7903;2011-01-24T02:27:37,000;2013-01-22T23:35:52,000;RestOperations / RestTemplate does not document responseType=null behaviour;nealeu;;https://jira.spring.io/browse/SPR-7903
+SPR-9560;2012-07-03T10:29:42,000;2014-12-01T06:00:36,000;Subsequent @Valid Required in @RenderMapping When Used in @ActionMapping to Properly Bind Errors;whardwick;;https://jira.spring.io/browse/SPR-9560
+SPR-9599;2012-07-17T21:53:32,000;2013-01-22T23:35:04,000;@Transactional annotation doesn't work with Hibernate 4 with EntityManagerConfiguration;gubber;;https://jira.spring.io/browse/SPR-9599
+SPR-9375;2012-05-04T00:32:59,000;2016-07-01T11:22:58,000;@Transactional annotation does not work with inheritance and qualifiers;nachogil;;https://jira.spring.io/browse/SPR-9375
+SPR-9685;2012-08-14T01:49:53,000;2014-04-21T23:07:06,000;Method-based autowiring fails in certain contexts;stevevls;;https://jira.spring.io/browse/SPR-9685
+SPR-9709;2012-08-20T06:52:51,000;2013-08-10T07:36:06,000;Meta annotations are superseded by @Transactional annotation on superclass;mattinger;;https://jira.spring.io/browse/SPR-9709
+SPR-8115;2011-03-31T06:28:45,000;2013-01-22T23:34:42,000;Sharing parent context between web apps broken when sharing the Spring libraries between applications;gnomie2000;;https://jira.spring.io/browse/SPR-8115
+SPR-8026;2011-03-08T09:50:31,000;2013-01-22T23:34:42,000;Velocity springFormCheckbox attribute string appends / when attribute string not properly quoted;sgentry;;https://jira.spring.io/browse/SPR-8026
+SPR-7977;2011-02-18T12:09:28,000;2014-04-21T23:07:16,000;DispatcherServlet WebApplicationContext not configurable and does not inherit properties of parent WebApplicationContext;kdonald;;https://jira.spring.io/browse/SPR-7977
+SPR-7978;2011-02-18T12:23:21,000;2014-11-10T15:59:52,000;De-register JDBC drivers on EmbeddedDatabase shutdown;kdonald;;https://jira.spring.io/browse/SPR-7978
+SPR-13181;2015-07-01T11:37:27,000;2015-07-02T06:41:20,000;Incorrect named parameter parsing results in InvalidDataAccessApiUsageException: No value supplied for the SQL parameter;ceefour;;https://jira.spring.io/browse/SPR-13181
+SPR-13148;2015-06-19T03:00:32,000;2015-06-19T04:08:57,000;ResourceUtils issue;aivanov;;https://jira.spring.io/browse/SPR-13148
+SPR-8989;2012-01-04T01:06:54,000;2013-01-22T23:36:07,000;JSR 303 customer ConstraintValidator seems to result in incorrect error codes;mzz6wh;;https://jira.spring.io/browse/SPR-8989
+SPR-9169;2012-02-24T08:57:57,000;2014-04-21T23:07:26,000;Apostrophe not being displayed correctly in MessageSource;mschipperheyn;;https://jira.spring.io/browse/SPR-9169
+SPR-8975;2011-12-30T03:42:30,000;2013-01-22T23:36:18,000;JSR-303 Validation picks message codes from different locations;shahed100;;https://jira.spring.io/browse/SPR-8975
+SPR-10409;2013-03-23T01:40:59,000;2014-04-21T23:07:24,000;Properties from @Import-ed Configuration override properties in @Import-ing configuration;brabster;;https://jira.spring.io/browse/SPR-10409
+SPR-10610;2013-05-30T19:33:47,000;2014-10-27T11:58:28,000;SpelExpression isWritable() doesn't detect invalid nested paths;kyrill007;;https://jira.spring.io/browse/SPR-10610
+SPR-9755;2012-09-04T13:25:40,000;2013-01-22T23:36:16,000;Spring's ReloadableResourceBundleMessageSource not finding properties file;balteo;;https://jira.spring.io/browse/SPR-9755
+SPR-10254;2013-02-03T19:27:47,000;2013-02-08T14:26:11,000;"Can't bind @ModelAttribute List type with enctype=""multipart/form-data""";hurelhuyag;;https://jira.spring.io/browse/SPR-10254
+SPR-11021;2013-10-23T06:27:02,000;2014-12-11T08:37:49,000;SpEl can not parse Long;sven;;https://jira.spring.io/browse/SPR-11021
+SPR-10849;2013-08-20T19:37:49,000;2013-08-20T19:38:35,000;FormattingConversionService throws IllegalStateException if a parser returns null;loosebits;;https://jira.spring.io/browse/SPR-10849
+SPR-8292;2011-05-04T09:24:16,000;2013-01-22T23:34:38,000;"Inner class XML configuration fails with &lt;bean class=""Outer.Inner""/&gt;";dturanski;;https://jira.spring.io/browse/SPR-8292
+SPR-7958;2011-02-11T04:22:50,000;2013-01-22T23:34:52,000;NamedParameterUtils.parseSqlStatement can't handle quote following comment end;ablaanda;;https://jira.spring.io/browse/SPR-7958
+SPR-7968;2011-02-17T01:32:25,000;2013-01-22T23:36:43,000;PropertyBatchUpdateException hide undescriptive errors;lacostej;;https://jira.spring.io/browse/SPR-7968
+SPR-8765;2011-10-12T10:30:44,000;2014-04-21T23:07:17,000;"@Value injection not working correcly with a ""non-standard"" properties object as the source.";davidkarlsen;;https://jira.spring.io/browse/SPR-8765
+SPR-11126;2013-11-26T16:23:54,000;2014-10-09T10:17:31,000;Controller parameter mapping: problem converting empty parameter to List;fschroder;;https://jira.spring.io/browse/SPR-11126
+SPR-11075;2013-11-06T13:20:53,000;2013-11-14T07:46:42,000;Unable to override non-JavaConfig beans in JavaConfig;olivergierke;;https://jira.spring.io/browse/SPR-11075
+SPR-11177;2013-12-05T09:34:39,000;2013-12-10T16:00:52,000;RequestBody(required = false) on a DELETE method is not optional;markrobinson;;https://jira.spring.io/browse/SPR-11177
+SPR-11033;2013-10-26T02:51:29,000;2013-11-05T08:56:37,000;JSR-250 annotations (@PostConstruct) not observed on @Configuration classes;w_c_smith;;https://jira.spring.io/browse/SPR-11033
+SPR-11866;2014-06-10T14:25:15,000;2014-06-11T06:12:09,000;Custom Media Type not working;vtrilokc;;https://jira.spring.io/browse/SPR-11866
+SPR-12449;2014-11-18T02:58:36,000;2014-11-18T03:22:49,000;CollectionToStringConverter adds DELIMITER for empty targetElement;ckorakidis;;https://jira.spring.io/browse/SPR-12449
+SPR-13364;2015-08-18T05:37:16,000;2015-08-18T06:05:39,000;@ComponentScan breaks @Configurable detection;mdcock7;;https://jira.spring.io/browse/SPR-13364
+SPR-13473;2015-09-19T08:17:35,000;2015-09-21T10:40:03,000;@Components annotated with Custom Qualifier are not accessible via @Autowired in Beans instantiated through JavaConfig loaded via @Import in another @Configuration class;puneetbansal;;https://jira.spring.io/browse/SPR-13473
+SPR-13430;2015-09-04T13:25:40,000;2015-09-04T13:43:19,000;Bad mapping with @Resource;Olivier57420;;https://jira.spring.io/browse/SPR-13430
+SPR-11372;2014-01-30T10:10:10,000;2015-03-21T20:38:32,000;Embedded database connection closed by shutdown() method;pwebb;;https://jira.spring.io/browse/SPR-11372
+SPR-10511;2013-05-03T07:27:25,000;2014-04-21T23:07:09,000;PropertyDescriptorUtils.java is missing from spring-beans-3.2.2.RELEASE-sources.jar;archie172;;https://jira.spring.io/browse/SPR-10511
+SPR-10895;2013-09-04T06:37:55,000;2013-09-04T06:37:55,000;Combination of @PreAuthorize and ApplicationContextAware prevents loading the Controller;raginggoblin;;https://jira.spring.io/browse/SPR-10895
+SPR-11684;2014-04-11T01:10:47,000;2014-05-26T04:54:33,000;Infinite loop with @Lazy @Scope @Bean;david_syer;;https://jira.spring.io/browse/SPR-11684
+SPR-13924;2016-02-05T16:48:19,000;2016-02-08T16:01:34,000;Multivalue @RequestParam empty array for single empty value;vrachieru;;https://jira.spring.io/browse/SPR-13924
+SPR-13450;2015-09-09T09:56:45,000;2015-09-11T01:41:27,000;Instances of concurrentHaspMap inside PerConnectionWebSocketHandler not being cleaned up;cpandey05;;https://jira.spring.io/browse/SPR-13450
+SPR-10493;2013-04-25T19:53:11,000;2013-05-27T03:03:29,000;Content negotiation for wildcard media type;nybon;;https://jira.spring.io/browse/SPR-10493
+SPR-13684;2015-11-13T16:54:06,000;2015-11-17T22:12:11,000;Possible bug on Spring MVC Test about retrieving XML;dr_pompeii;;https://jira.spring.io/browse/SPR-13684
+SPR-14719;2016-09-15T10:55:06,000;2016-09-19T11:56:23,000;Refreshable Groovy scripts failing on refresh;david_syer;;https://jira.spring.io/browse/SPR-14719
+SPR-10491;2013-04-25T06:37:40,000;2013-05-08T07:14:25,000;UrlPathHelper#getLookupPathForRequest should not returning empty string;janning;;https://jira.spring.io/browse/SPR-10491
+SPR-6983;2010-03-15T04:24:49,000;2013-01-22T23:36:13,000;AOP Annotation fails;jcook1000;;https://jira.spring.io/browse/SPR-6983
+SPR-7826;2010-12-17T10:39:46,000;2013-01-22T23:35:25,000;getJdbcTemplate().queryForList() Cannot handle 721000 rows;thehl;;https://jira.spring.io/browse/SPR-7826
+SPR-13840;2016-01-05T14:55:59,000;2016-01-06T09:20:53,000;@Async ignored if service is injected into AsyncConfigurerSupport;membersound;;https://jira.spring.io/browse/SPR-13840
+SPR-5463;2009-02-04T10:36:16,000;2013-01-22T23:35:18,000;Can bind to generic attribute but not generic parameter;ejain;;https://jira.spring.io/browse/SPR-5463
+SPR-14023;2016-03-05T09:16:27,000;2016-03-08T14:53:53,000;Empty @PathVariable not recognized;markus_heiden;;https://jira.spring.io/browse/SPR-14023
+SPR-13988;2016-02-26T13:20:38,000;2016-03-08T15:08:20,000;Incorrect RequestMapping root path;? eugene almighty ?;;https://jira.spring.io/browse/SPR-13988
+SPR-11722;2014-04-22T22:18:25,000;2014-05-06T07:44:18,000;BindingResult errors from @ModelAttribute are not carried over to @RequestMapping annotated method;vsemenov;;https://jira.spring.io/browse/SPR-11722
+SPR-13360;2015-08-17T17:36:01,000;2015-08-18T13:39:09,000;Async dispatches happen in the wrong state;kenzierocks;;https://jira.spring.io/browse/SPR-13360
+SPR-13926;2016-02-07T08:45:56,000;2016-02-17T13:27:23,000;@RequestBody(required=false) next to @RequestParam leads to IllegalArgumentException;igreenfi1;;https://jira.spring.io/browse/SPR-13926
+SPR-13324;2015-08-06T08:33:09,000;2015-08-28T14:48:18,000;FlashAttributes for bindingresult replaced in redirected model;seanhinkley;;https://jira.spring.io/browse/SPR-13324
+SPR-11458;2014-02-20T10:51:36,000;2014-02-20T16:58:27,000;Autowiring fails when bean with the same name yet different type exists in parent BeanFactory;tbecker;;https://jira.spring.io/browse/SPR-11458
+SPR-7598;2010-09-28T08:25:09,000;2014-09-19T11:36:28,000;StringUtils#parseLocaleString(String) with Variant when no Country;amsmota;;https://jira.spring.io/browse/SPR-7598
+SPR-11084;2013-11-11T10:37:30,000;2013-11-11T11:02:17,000;Can't build project using gradlew on Windows 7 x64;gao;;https://jira.spring.io/browse/SPR-11084
+SPR-9230;2012-03-12T15:15:20,000;2015-12-25T21:18:32,000;Elvis operator order of operations;mwielansky;;https://jira.spring.io/browse/SPR-9230
+SPR-11852;2014-06-06T06:55:50,000;2014-06-06T07:01:12,000;"@Autowired Collection&lt;A&gt; beans; behaves differently in beans and tests";rwitzel;;https://jira.spring.io/browse/SPR-11852
+SPR-13848;2016-01-07T10:11:46,000;2016-01-11T12:17:16,000;Hibernate 4 Autoflush does not work with Spring OpenSessionInViewInterceptor;Christof_Patzwald;;https://jira.spring.io/browse/SPR-13848
+SPR-14758;2016-09-27T21:38:41,000;2016-09-29T03:21:35,000;SpEL varargs string arguments containing commas;EE;;https://jira.spring.io/browse/SPR-14758
+SPR-6697;2010-01-14T07:38:23,000;2013-01-22T23:36:08,000;2D arrays do not work in remoting in some cases;amling;;https://jira.spring.io/browse/SPR-6697
+SPR-12707;2015-02-10T11:01:19,000;2015-03-06T08:09:19,000;When using CsrfRequestDataValueProcessor, the hidden field with the CSRF token is put into an unnecessarily created div element;an-re;;https://jira.spring.io/browse/SPR-12707
+SPR-10172;2013-01-14T01:30:08,000;2016-09-30T08:27:51,000;UriComponents.Type.QUERY_PARAM does not match spec;david_syer;;https://jira.spring.io/browse/SPR-10172
+SPR-14763;2016-09-28T21:07:33,000;2016-09-29T03:23:56,000;AntPathMatcher.isPattern returns false if pattern contains variable;soldier.kam@gmail.com;;https://jira.spring.io/browse/SPR-14763
+SPR-14764;2016-09-28T21:34:36,000;2016-09-29T03:25:19,000;MessageHeaders doesn't use serialization properly;abilan;;https://jira.spring.io/browse/SPR-14764
+SPR-11544;2014-03-12T01:59:04,000;2014-03-12T09:54:03,000;Permission denied when using queryForRowSet from a view;AlexPanayotopoulos;;https://jira.spring.io/browse/SPR-11544
+SPR-10445;2013-04-05T16:46:37,000;2013-07-03T00:53:26,000;Null pointer exception in CallableStatementCreatorFactory;a.kumar.er;;https://jira.spring.io/browse/SPR-10445
+SPR-9750;2012-09-04T03:05:32,000;2014-04-21T23:07:07,000;Problem with the @Scheduled Annotation;oussama.zoghlami;;https://jira.spring.io/browse/SPR-9750
+SPR-9229;2012-03-12T15:02:28,000;2014-04-21T23:07:04,000;SpringEL Elvis operator fails with SpelEvaluationException when Property/Field is not found;mwielansky;;https://jira.spring.io/browse/SPR-9229
+SPR-14786;2016-10-07T12:45:15,000;2016-10-09T18:13:47,000;wrong scheduling targets on using cron pattern */n;svn.krs;;https://jira.spring.io/browse/SPR-14786
+SPR-9849;2012-10-03T04:58:23,000;2014-11-16T14:18:34,000;Incorrect resolution of handler mappings - the Allow header has wrong values;eugenparaschiv;;https://jira.spring.io/browse/SPR-9849
+SPR-9628;2012-07-24T11:05:39,000;2014-04-21T23:07:22,000;high memory consumption on 64-bit JVMs when managing swing-components;matrium;;https://jira.spring.io/browse/SPR-9628
+SPR-11179;2013-12-05T12:18:32,000;2013-12-05T12:18:32,000;Annotation Formatters not supported in Model Attributes;andidev;;https://jira.spring.io/browse/SPR-11179
+SPR-11661;2014-04-04T09:28:16,000;2014-04-30T07:11:16,000;java.nio.channels.WritePendingException on WebSocket;lstanden;;https://jira.spring.io/browse/SPR-11661
+SPR-14777;2016-10-04T08:29:55,000;2016-10-04T13:45:41,000;Application destination prefix filter out SubscribeMapping;wooff;;https://jira.spring.io/browse/SPR-14777
+SPR-14802;2016-10-12T22:12:40,000;2016-10-13T10:47:14,000;Content-Language not set for responses rendered with Message Converters;drdamour;;https://jira.spring.io/browse/SPR-14802
+SPR-14604;2016-08-19T07:12:11,000;2016-08-19T07:12:11,000;Could not change message selector at runtime;snicoll;;https://jira.spring.io/browse/SPR-14604
+SPR-14360;2016-06-14T10:12:31,000;2016-06-14T12:25:59,000;Cannot override beans defined through ImportBeanDefinitionRegistrar;prietzler;;https://jira.spring.io/browse/SPR-14360
+SPR-14696;2016-09-12T14:26:40,000;2016-09-12T15:12:07,000;"Failed to start bean 'webSocketHandlerMapping'; nested exception is java.lang.IllegalStateException: Unable to initialize Jetty WebSocketServerFactory with latest spring and jetty vesions";teja.siram;;https://jira.spring.io/browse/SPR-14696
+SPR-9659;2012-08-01T02:40:56,000;2014-04-21T23:07:03,000;Spring-instrument and auto injection in new object;zen0n;;https://jira.spring.io/browse/SPR-9659
+SPR-14804;2016-10-13T11:25:08,000;2016-11-14T22:26:06,000;SubProtocolWebSocketHandler should check session status before adding to map;ManDudeBoy;;https://jira.spring.io/browse/SPR-14804
+SPR-14741;2016-09-22T22:05:31,000;2016-09-23T06:45:14,000;@ComponentScan ignores @Order on @Configuration classes;Pulquero;;https://jira.spring.io/browse/SPR-14741
+SPR-14828;2016-10-20T12:32:47,000;2016-10-20T12:34:30,000;UriComponentBuilder doesn't work with encoded HTTP URL having '+'.;izeye;;https://jira.spring.io/browse/SPR-14828
+SPR-14762;2016-09-28T19:01:24,000;2016-09-29T03:23:39,000;Content negotiation conflict with Data REST Repository;w_c_smith;;https://jira.spring.io/browse/SPR-14762
+SPR-14746;2016-09-24T09:02:09,000;2016-09-24T18:50:07,000;Access to generic list throws java.lang.IndexOutOfBoundsException: Index: 0, Size: 0;abaghel;;https://jira.spring.io/browse/SPR-14746
+SPR-14480;2016-07-18T20:34:20,000;2016-08-15T20:27:34,000;CronSequenceGenerator.next() returns incorrect time;scott.albertine;;https://jira.spring.io/browse/SPR-14480
+SPR-14494;2016-07-20T11:00:19,000;2016-07-20T11:07:06,000;Pointcut using @target causes unexpected proxy creation;awilkinson;;https://jira.spring.io/browse/SPR-14494
+SPR-14490;2016-07-19T17:29:15,000;2016-07-20T12:03:59,000;Nested @Async annotations can block indefinitely;pwebb;;https://jira.spring.io/browse/SPR-14490
+SPR-10506;2013-04-30T11:20:30,000;2015-09-22T20:07:47,000;EvalTag$JspPropertyAccessor cannot resolve JSP attributes that have been set to null;sythe01;;https://jira.spring.io/browse/SPR-10506
+SPR-14873;2016-11-02T18:05:33,000;2016-11-02T18:53:02,000;Invoking method (having @Bean) on Autowired parent class is calling subclass method;kvr2277;;https://jira.spring.io/browse/SPR-14873
+SPR-14932;2016-11-21T22:26:27,000;2016-11-22T07:10:51,000;Class loading issues due to thread context classloader hierarchy (Spring Web Reactive + Tomcat);dfernandez;;https://jira.spring.io/browse/SPR-14932
+SPR-7155;2010-04-29T22:28:40,000;2013-01-22T23:34:53,000;Two threads have the xame XaResource (activemq) when sending a message with JmsTemplate in beforeCompletion;rodriguezc;;https://jira.spring.io/browse/SPR-7155
+SPR-8981;2012-01-03T01:06:17,000;2016-11-22T10:02:34,000;Cron expression with fixed weekday and fixed date may or may not lead to IllegalStateException (runaway search for next trigger);seebass;;https://jira.spring.io/browse/SPR-8981
+SPR-14933;2016-11-22T09:44:33,000;2016-11-22T10:03:12,000;Cron Expression validation;arcadius;;https://jira.spring.io/browse/SPR-14933
+SPR-14874;2016-11-03T03:59:42,000;2016-11-03T08:23:33,000;The 500 error occur when receive a indexed parameter equal or greater than autoGrowCollectionLimit;kazuki43zoo;;https://jira.spring.io/browse/SPR-14874
+SPR-14579;2016-08-10T14:31:00,000;2016-10-30T09:36:33,000;META-INF/spring.schemas loading doesn't work with Java 9 automatic modules;paul.bakker@luminis.eu;;https://jira.spring.io/browse/SPR-14579
+SPR-14900;2016-11-11T20:15:44,000;2016-11-11T22:51:09,000;component-scan for .groovy files does not work on JDK 9;chabapok;;https://jira.spring.io/browse/SPR-14900
+SPR-14864;2016-11-01T10:32:20,000;2016-11-01T16:40:20,000;ObjectMapper used by Jackson2JsonDecoder doesn't pick up jackson-parameter-names module;domfox;;https://jira.spring.io/browse/SPR-14864
+SPR-14882;2016-11-06T14:30:58,000;2016-11-08T21:48:10,000;InputStreamResource are closed by SimpleClientHttpResponse;hadrien.kohl;;https://jira.spring.io/browse/SPR-14882
+SPR-14938;2016-11-23T11:05:34,000;2016-11-23T12:46:07,000;RestTemplate's getSupportedMediaTypes method drop messageconverter mediatype character set information;joonhaeng;;https://jira.spring.io/browse/SPR-14938
+SPR-14899;2016-11-11T14:07:41,000;2016-11-22T09:47:47,000;sse breaks with indenting serializer;heymjo;;https://jira.spring.io/browse/SPR-14899
+SPR-14891;2016-11-09T15:41:41,000;2016-11-10T07:52:40,000;Content-based versions are not inserted into resource URLs in an error page;awilkinson;;https://jira.spring.io/browse/SPR-14891
+SPR-14931;2016-11-21T21:30:36,000;2016-11-21T21:41:37,000;NPE in LoadTimeWeavingConfiguration;serendipitic;;https://jira.spring.io/browse/SPR-14931
+SPR-9847;2012-10-02T08:48:20,000;2014-10-13T02:45:41,000;java.io.NotSerializableException: org.springframework.aop.aspectj.annotation.InstantiationModelAwarePointcutAdvisorImpl for session-scoped bean when stopping Tomcat;boraldo;;https://jira.spring.io/browse/SPR-9847
+SPR-7930;2011-02-01T20:33:51,000;2013-01-22T23:36:05,000;overview.html in Spring aspects JAR still talks about SWF etc.;aswan;;https://jira.spring.io/browse/SPR-7930
+SPR-5840;2009-06-19T01:25:31,000;2013-01-22T23:34:57,000;SingletonBeanFactoryLocator.useBeanFactory() should decrement the BeanFactoryGroup reference after getBean() failure;lopes;;https://jira.spring.io/browse/SPR-5840
+SPR-5525;2009-02-25T10:34:15,000;2013-01-22T23:35:45,000;NestedServletException does not provide useful stack trace as advertised in its javadoc.;synesso;;https://jira.spring.io/browse/SPR-5525
+SPR-14079;2016-03-22T20:10:55,000;2016-03-22T20:33:42,000;PropertySource is nearly impossible to debug via rational thought;StuS;;https://jira.spring.io/browse/SPR-14079

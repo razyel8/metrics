@@ -1,0 +1,30 @@
+
+Call:
+lm(formula = form, data = trainingSet)
+
+Coefficients:
+(Intercept)           x1           x2           x3           x4  
+   -1.00593      0.06379      0.04613      0.01271      0.01919  
+
+
+Call:  glm(formula = form, family = binomial, data = trainingSet)
+
+Coefficients:
+(Intercept)           x1           x2           x3           x4  
+   -18.8372       0.8272       0.5697       0.1823       0.2569  
+
+Degrees of Freedom: 999 Total (i.e. Null);  995 Residual
+Null Deviance:	    911.8 
+Residual Deviance: 500.3 	AIC: 510.3
+
+Call:
+ randomForest(x = trainingSet[, 1:(ncol(trainingSet) - 1)], y = factor(trainingSet[,      "y1"]), importance = TRUE, do.trace = 1) 
+               Type of random forest: classification
+                     Number of trees: 500
+No. of variables tried at each split: 2
+
+        OOB estimate of  error rate: 0%
+Confusion matrix:
+    0   1 class.error
+0 830   0           0
+1   0 170           0

@@ -1,0 +1,7 @@
+predictive modeling in software engineering - common application areas
+ (e.g., software defect preductionm, top crashes, effort and cost prediction) and new ones
+
+http://www.predictiveanalyticstoday.com/predictive-modeling/
+http://www.gartner.com/it-glossary/predictive-modeling/
+
+StackOverflow jako baza/metryka/ itd

@@ -1,0 +1,1 @@
+app.properties file must contain empty row at the ending of a file

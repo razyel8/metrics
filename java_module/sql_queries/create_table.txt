@@ -1,0 +1,17 @@
+CREATE TABLE `metrics`.`classentity` (
+  `sh1` INT NOT NULL,
+  `filePath` VARCHAR(45) NOT NULL,
+  `author` VARCHAR(45) NULL,
+  `date` INT NULL,
+  `action` VARCHAR(45) NULL,
+  `message` VARCHAR(250) NULL,
+  `isBugFix` INT NULL DEFAULT 2,
+  `isBugProne` INT NULL DEFAULT 2,
+  `soc` DOUBLE NULL,
+  `qofc` DOUBLE NULL,
+  `mbrc` DOUBLE NULL,
+  `cc` DOUBLE NULL,
+  `loc` INT NULL,
+  `lcom` DOUBLE NULL,
+  `wmc` DOUBLE NULL,
+  PRIMARY KEY (`sh1`, `filePath`));

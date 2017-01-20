@@ -1,0 +1,32 @@
+.idea
+/java_module/target/
+!java_module/.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+java_module/.apt_generated
+java_module/.classpath
+java_module/.factorypath
+java_module/.project
+java_module/.settings
+java_module/.springBeans
+
+### IntelliJ IDEA ###
+java_module/.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+java_module/nbproject/private/
+java_module/build/
+java_module/nbbuild/
+java_module/dist/
+java_module/nbdist/
+java_module/.nb-gradle/
+
+### R Project ###
+r_module/.Rproj.user
+r_module/.Rhistory
+r_module/.RData
+r_module/.Ruserdata
+

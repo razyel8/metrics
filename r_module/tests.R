@@ -1,0 +1,5 @@
+c1 <- c("cscsc", "cdscdscds", "cdcdcs")
+c2 <- c("cdcd", "sss", "sdsdsd")
+c3 <- c("cdcd", "sswssdss", "sdsssssdsd")
+df <- data.frame(c1, c3)
+df <- data.frame(df, c2)
