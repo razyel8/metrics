@@ -96,14 +96,14 @@ public class ClassEntityRepository {
         LinkedHashMap<String, List<ClassEntity>> map = new LinkedHashMap<>();
         try {
             //TODO: Implement
-//            Statement stmt = JDBCConnector.getInstance().getConnection().createStatement();
-//            String sql = "SELECT * FROM classentity WHERE isBugProne = 1 group by sh1 order by date";
-//            ResultSet rs = stmt.executeQuery(sql);
+            Statement stmt = JDBCConnector.getInstance().getConnection().createStatement();
+            String sql = "SELECT * FROM classentity WHERE isBugProne = 1 group by sh1 order by date";
+            ResultSet rs = stmt.executeQuery(sql);
 //            while(rs.next()){
 //                map.put(rs.getString("sh1"), rs.getInt(1));
 //            }
-//            stmt.close();
-//            rs.close();
+            stmt.close();
+            rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
